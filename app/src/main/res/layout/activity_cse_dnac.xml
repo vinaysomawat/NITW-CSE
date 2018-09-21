@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS465 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction to DNA Computing:\nMolecular Biology, Molecular Structure, Genes, Structure and Biosynthesis, DNA Recombination, Genomes, Gene Expression, Protein Biosynthesis, Proteins–Molecular Structure, Cells and Organisms, Eukaryotes and Prokaryotes, Viruses\n\nWord Design for DN A Computing:\nDistance, Similarity, DNA Languages, Bond-Free Languages, Hybridization Properties, Small DNA Languages, DNA Code Constructions and Bounds, Reverse and Reverse-Complement Codes, Constant GC-Content Codes, Similarity-Based Codes, General Selection Model\n\nAutonomous DNA Models:\nAlgorithmic Self-Assembly, Self-Assembly, DNA Graphs, Linear Self-Assembly, Tile Assembly, Finite State Automaton Models, Two-State Two-Symbol Automata, Length-Encoding Automata, Sticker Automata, Stochastic Automata, DNA Hairpin Model, Whiplash PCR, Satisfiability, Hamiltonian Paths, Maximum Cliques, Hairpin Structures, Computational Models, Neural Networks, Tic-Tac-Toe Networks, Turing Machines\n\nCellular DNA Computing:\nModels of Gene Assembly, Intramolecular String Model, Intramolecular Graph Model, Intermolecular String Model, Biomolecular Computing, Gene Therapy, Anti-Sense Technology, Cell-Based Finite State Automata, Anti-Sense Finite State Automata, Diagnostic Rules, Diagnosis and Therapy, Computational Genes, Diagnostic Rules, Diagnosis and Therapy"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Zoya Ignatova, Israel Martınez-Perez, Karl-Heinz Zimmermann, DNA Computing Models,1st edition, Springer 2008\n2. Jin Xiong, Essential Bioinformatics, 1th Edition, Cambridge University Press,2011\n3. Arthur M Lesk, Introduction to Bioinformatics, 1nd Edition, Oxford University Press2011\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickdnac"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

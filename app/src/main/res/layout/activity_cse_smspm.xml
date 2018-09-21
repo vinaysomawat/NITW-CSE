@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS371 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="The Basics of Measurement:\nMeasurement in software engineering, The scope of software metrics, the representational theory of measurement, Measurement and models, Measurement scales and scale types, Meaningfulness’ in measurement\n\nGoal-based framework for software measurement:\nClassifying software measures, determining what to measure, applying the framework, Software measurement validation\n\nEmpirical investigation:\nPrinciples of investigation, planning formal experiments, planning case studies\n\nMeasuring internal product attributes:\nAspects of software size, Length, reuse\n\nMeasuring internal product attributes;\nTypes of structure measures, Control-flow structure, Modularity and information flow attributes, Object-oriented metrics\n\nMeasuring external product attributes:\nModeling software quality, measuring aspects of quality\n\nMaking process predictions:\nGood estimates, Cost estimation - problems and approaches, Models of effort and cost, Problems with existing modeling methods, Dealing with problems of current estimation methods, Implications for process prediction\n\nSoftware Project Management:\nGeneral management, introduction to software project management, Conventional software management, project initiation, feasibility study, project planning, project evaluation, resource allocation, project monitoring, project control, case studies"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Norman E. Fenton, Shari Lawrence Pfleeger, Software Metrics - A Rigorous and Practical Approach, 2nd Edition, PWS Pub, 1996.\n2. Walker Royce, Software Project Management, Addison Wesley, 1998.\n3. Pankaj Jalote, Software Project Management in Practice, Pearson Education Inc. Delhi, 2002..\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclicksmspm"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

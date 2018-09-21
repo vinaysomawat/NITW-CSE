@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS352 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:CS302: Operating Systems\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction – network architecture - protocol implementation issues - Quantitative performance metrics - network design. Reference models- The OSI Reference Model- The TCP/IP Reference Model - A Comparison of the OSI and TCP/IP Reference Models-\n\nLow –level network technologies-Ethernet to token ring to wireless-Issues wit data link protocols-Encoding framing and error detection and correction-sliding window protocol-Medium access control sub layer-Basic models of switched networks-Datagrams versus virtual circuits-Switching technologies-Switched Ethernet and ATM- The design of hardware based switches\n\nNetwork layer – network layer design issues-Touting algorithms-Congestion control algorithms-Internetworking- The network layer in the internet-Internet Protocol (IP).- Unicast, multicast, and inter domain routing\n\nTransport layer-Elements of transport protocol-Congestion control – Performance issues-The Internet’s Trans-mission Control Protocol (TCP)- Remote Procedure Call (RPC)- – Implementation semantics of RPC -client-server applications- The Real-time Transport Protocol(RTP) - Multimedia applications- Congestion control and resource allocation.- congestion control in TCP –UDP –Quality of service in IP.\n\nApplication layer-Domain name server-World wide web-Hyper text transfer protocol-Presentation formatting and data compression- Network security- crypto graphic tools- the problems of key distribution – Geveral authentication techniques - Pretty Good Privacy (PGP)- Secure Shell (SSH),- IP Security architecture(IPSEC).-Firewalls .\n\nApplication layer-Domain name server-World wide web-Hyper text transfer protocol-Presentation formatting and data compression- Network security- crypto graphic tools- the problems of key distribution – Geveral authentication techniques - Pretty Good Privacy (PGP)- Secure Shell (SSH),- IP Security architecture(IPSEC).-Firewalls .\n\nNetwork applications and the protocols- File transfer protocol - email and the Web, multimedia applications such as IP telephony and video streaming- Overlay networks like peer-to-peer file sharing and content distribution networks- Web Services architectures for developing new application protocols."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Larry L Peterson, Bruce S Davis, Computer Networks, 5th Edition, Elsevier, 2012.\n2. Andrew S. Tanenbaum, David J Wetherall, Computer Networks, 5th Edition, Pearson Edu, 2010.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickcn"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

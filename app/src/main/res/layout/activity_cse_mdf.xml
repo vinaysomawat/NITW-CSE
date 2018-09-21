@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course ID: \nPre-requisites: \nStatistical Methods:
+Circuit Elements And Relations: Types of sources and source transformations – Dot convention and formation of loop and node equations.
+Network Graphs And Analysis: Graph of a network – incidence matrix Formation of equilibrium equations – Dual networks.
+Time Domain Analysis: Solution of network equations in time domain classical differential equations – approach – initial conditions and their evaluation – Applications to simple RLC circuits only.
+Applications Of Laplace Transforms In Circuit Theory: Laplace transformers of various signals of excitation – Waveform synthesis, Laplace transformed networks – Determination and representation of initial conditions – Response for impulse function only and its relation to network admittance – convolution integral and applications.
+Steady State Analysis Of Circuits For Sinusoidal Excitations: 1-phase series, Parallel, series-parallel circuits – Solution of AC networks using mesh and nodal analysis.
+Resonance: Series and parallel resonance – Selectivity – Bandwidth – Q factors
+Network Theorems And Applications: Superposition theorem – Thevenin’s and Norton’s theorems –Millman’s theorem – Maximum power transfer theorem – Tellegen’s theorem – Their applications in analysis of networks.
+Reading:
+1. M.E.Van Valken Burg, Network Analysis, 3/e, PHI, 2002
+2. Charles A Desoer and Ernest S Kuh, Basic Circuit Theory, Mc Graw Hill, 1969
+3. M.L.Soni and J.C. Gupta, A Course in Electrical Circuit Analysis, Dhanpat Rai  Co. (P), 2001.
+4. G.K.Mithal and Ravi Mittal, Network Analysis, Khanna Pub., 1998."
+                />
+
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

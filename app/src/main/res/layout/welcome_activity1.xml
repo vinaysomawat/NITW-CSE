@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/main" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_1_title"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn_skip2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:text="ABOUT"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:onClick="btnclick2"/>
+        <View
+            android:layout_width="2000dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="180dp"
+            android:background="@android:color/black"/>
+
+        <Button
+            android:id="@+id/btn_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@null"
+            android:text="NEXT"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:onClick="btnclick"/>
+
+    </LinearLayout>
+</RelativeLayout>

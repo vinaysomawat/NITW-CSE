@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS412 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Non-cooperative Game Theory:\nGames in Normal Form - Preferences and utility, examples of normal-form, Analyzing games: Pareto optimality, Nash equilibrium, Maxmin and minmax strategies, dominated strategies, Rationalizability, Correlated equilibrium\n\nComputing Solution Concepts of Normal-Form Games:\nComputing Nash equilibria of two-player, zero-sum games, Computing Nash equilibria of two-player, general-sum games, Complexity of computing Nash equilibrium, Lemke–Howson algorithm, Searching the space of supports, Computing Nash equilibria of n-player, general-sum games, Computing maxmin and minmax strategies for two-player, general-sum games, Computing correlated equilibria\n\nGames with the Extensive Form:\nPerfect-information extensive-form games, Subgame-perfect equilibrium, Computing equilibria, Imperfect-information extensive-form games, Sequential equilibrium\n\nOther Representations:\nRepeated games: Finitely repeated games, Infinitely repeated games, automata, Stochastic games Bayesian games: Computing equilibria\n\nCoalitional Game Theory:\nTransferable Utility, Analyzing Coalitional Games, The Shapley Value, The Core\n\nMechanism Design:\nStrategic voting, unrestricted preferences, Implementation, quasi linear setting, Efficient mechanisms, Computational applications of mechanism design, Task scheduling, Bandwidth allocation in computer networks\n\nAuctions:\nSingle-good auctions, Canonical auction families, Bayesian mechanisms, Multiunit auctions, Combinatorial auctions."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Nisan, N., T. Roughgarden, ´ E. Tardos, and V. Vazirani (Eds.). Algorithmic Game Theory. Cambridge University Press, 2007.\n2. Shoham, Y. and Leyton–Brown, K. Multiagent Systems: Algorithmic, Game Theoretic, and Logical Foundations. Cambridge University Press, 2008.\n3. Osborne, M. J., and Rubinstein, A. A Course in Game Theory. Cambridge, MA: MIT Press, 1994.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickgt"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

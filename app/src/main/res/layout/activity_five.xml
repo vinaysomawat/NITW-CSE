@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.SecondActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of Publications"
+                android:textStyle="bold"
+                android:textColor="#005a9b"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/textView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journals 2015"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/textView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Raaghave Sood, P. Venkata Subba Reddy, D. Rambabu “Radio Number of 1, 2- Cartesian Product of Paths”. 23rd International Conference of FIM on Interdisciplinary Mathematical, Statictical and Computational Technique, 18-20 December, 2014\n\n2. U.S.N. Raju, K.V.Kadambari, P.Venkata Subba Reddy “A New Method of Assessing the Students using Video Assignments”. IEEE International Conference on IT and Engineering Pedagogy(ITEP’15) EDUCON 2015\n\n3. Sriram G. Sanjeevi, Srikanth.Grandhe, Himanshu. Shrivastav, Ankit. Yadav, Tapas Kumar.Mahanta, Ch.Naveen Kumar “An Adaptive Clustering and Incremental learning solution to cold start problem in Recommendation Systems”. 3rd International Conference on Computer and Intelligent Systems Dubai(ICCIS’2015)"
+                android:textColor="#333"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journals 2014"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Bhagavatula, S.S. ;Sanjeevi, S.G. ; Kumar, D. ; Yadav, C.K. , “Multi- Objective Indicator Based Evolutionary Algorithm for Portfolio Optimization” pp. 1206, IEEE International Advance Computing Conference (IACC)\n\n2. Rashmi Ranjan Rout, S. K. Ghosh “Adaptive Data Aggregation and Energy Efficiency using Network Coding in a Clustered Wireless Sensor Network: An Analytical Approach”, Computer Communications (Elsevier), Vol. 40, pp-65-75\n\n3. SG Sanjeevi, Divya Kumar, Chitranjan Kumar Yadav “Multi-Object Indicator Based Evolutionary Algorithm for Portfolio Optimization”. IEEE Xplore March 2014"
+                android:textColor="#333"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journals 2013"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Syed Taqi Ali, B. B. Amberker, “A Dynamic Constant Size Attribute Based Group Signature Scheme with Attribute Anonymity”, Int. J. of Information Privacy, Security and Integrity. (Accepted)\n\n2. B. R. Purushothama, B. Srinath, B B Amberker, “Secure Cloud Storage Service and Limited Proxy Re-Encryption for Enforcing Access Control in Public Cloud”, International Journal of Information and Communication, vol. 5, No. 2, pp.167 – 186.\n\n3. T Ramakrishnudu,R B V Sbramanyam ,“Mining positive and Negative association rules using FII-tree”, International Journal of Advanced Computer Science and Applications, Vol. 4 No.9, September 2013, pp.147-151.\n\n4. R.Padmavathy, Chakravarthy Bhagvati “Index Calculus Method based on Smooth Numbers of ±1 over Zp*”, International Journal on Network Security, v15(4), pp265-273\n\n5. Rashmi Ranjan Rout, S. K. Ghosh “Enhancement of Lifetime using Duty Cycle and Network Coding in Wireless Sensor Networks”, IEEE Transactions on Wireless Communications, Vol. 12 (2), page: 656-667.\n\n6. Ayon Chakrabarty, Rashmi Ranjan Rout, Aveek Chakrabarti, S. K. Ghosh, “On Network Lifetime Expectancy with Realistic Sensing and Traffic Generation Model in Wireless Sensor Networks”, IEEE Sensors Journal, Vol. 13 (7), page: 2771-2779.\n\n7. Nagesh Bhattu Sristy, DVLN SOmayajulu and R B V Subramanyam “Paired Feature Constraints for Latent Dirichlet Topic Models. International Conference on Soft Computing and Pattern Recognition-2013 IEEE ISBN:978-1-4799-3400-3\n\n8. Swapnil Ashok Jadhav, Durvasula V. L. N. Somayajulu, S. Nagesh Bhattu, R. B. V. Subramanyam, P. Suresh “Context Dependent Bag of words generation.” In Advances in Computing, Communications and Informatics (ICACCI), 2013 International Conference on (pp. 1526-1531). IEEE\n\n9. Swapnil Ashok Jadhav, Durvasula V. L. N. Somayajulu, S. Nagesh Bhattu, R. B. V. Subramanyam, P. Suresh “Topic dependent cross-word Spelling Corrections for Web Sentiment Analysis.” In Advances in Computing, Communications and Informatics (ICACCI), 2013 International Conference on (pp. 1093-1096). IEEE.\n\n10. Sreekumar Vobugari, D.V.L.N. Somayajulu, B.M. Subraya, Madhan Kumar Srinivasan , “A Roadmap on Improved Performance-centric Cloud Storage Estimation Approach for Database System Deployment in Cloud Environment”, IEEE, ISBN: 978-1-4673-6068-5\n\n11. Nagaraj V. Dharwadkar and B. B. Amberker, “An Adaptive gray-Scale image Watermarking Scheme using Smooth and Edge areas of an image”, International Conference on Intelligent System and Signal Processing (ISSP2013), Gujarat.\n\n12. Sagar Gujjunoori and B. B. Amberker, “A Reversible Data Embedding Scheme for MPEG-4 Video Using HVS Characteristics”, International Conference on Intelligent System and Signal Processing (ISSP2013), Gujarat, India,\n\n13. B.R. Purushothama, B.B. Amberker, “Secure Group Key Managenent Scheme Based on Dual receiver Cryptosystem”, 2013 ACM Asia Public-Key Cryptography Workshop (AsiaPKC 2013), Hangzhou, China\n\n14. B.R. Purushothama, B.B. Amberker, “Provable Data Possession Scheme with Constant Proof Size for Outsourced Data in Public Cloud”, Second International Workshop on Cloud Computing and Identity Management (CloudID) 2013, Mysore\n\n15. Syed Taqi Ali, B.B. Amberker, “Short Attribute-Based Group Signature without Random Oracles with Attribute Anonymity”, International Symposium on Security in Computing and Communications (SSCC-13), Mysore\n\n16. B.R. Purushothama, B.B. Amberker, “Secure Multilayer Key Management Scheme With New Multilayer Rekeying Approach”, Second International Conference on Advances in Computing, Communication and Informatics (ICACCI),Mysore\n\n17. A. S. Poornima and B.B. Amberker, “Secure End-to-End Data Aggregation (SEEDA) Protocols for Wireless Sensor Networks”, Ad Hoc and Sensor Wireless Networks, Vol 17, No. 3 – 4, and p.193 – 219.\n\n18. Syed Taqi Ali, B. B. Amberker, “Dynamic Attribute Based Group Signature with Attribute Anonymity and Tracing in the Standard Model”, Third International Conference on Security, Privacy and Cryptographic Applications (SPACE – 2013),\n\n19. P. Venkata Subba Reddy and K. Viswanathan Iyer, “Conditional and Unique Conditional Colorability of Graphs,” September 22-26, 2013, Bhopal."
+                android:textColor="#333"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journals 2012"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#333"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Nagaraj Dharwadkar and B.B. Amberker, High perceptual quality and robust color image watermarking scheme using Julian set patterns in DWT-SVD, International Journal of Tomography and Statistics, Volume 19, Issue Number 1, pp 14-31, 2012.\n\n2. Nagaraj V.Dharwadkar and B. B. Amberker, Secure and distortionless gray-scale medical image watermarking scheme, Journal of Medical Imaging and Health Informatics, American Scientific Publishers, Vo.2, No.3, September, 2012.\n\n3. Aparna R, B.B. Amberker, Key Management Schemes for Multilayer and Multiple Simultaneous Secure Group Communication, ISRN Communications and Networkworking, Volume 2012, 2012.\n\n4. A.S. Poornima and B.B. Amberker, Secure End-to-End Data Aggregation (SEEDA) Protocols for Wireless Sensor Networks, Ad Hoc and Sensor Wireless Networks (Accepted)\n\n5. B. R. Purushothama, B B Amberker, Secure group and multi-layer group communication schemes based on polynomial interpolation, Security and Communication Networks, Wiley, DOI:10.1002/sec.607\n\n6. B. R. Purushothama, B. Srinath, B B Amberker, Secure Cloud Storage Service and Limited Proxy Re-Encryption for Enforcing Access Control in Public Cloud, International Journal of Information and Communication (Accepted)\n\n7. Siddharth Agarwal, Abhinav Rungta, Mayank Shankar, Nipun Rajan and R.Padmavathy, Improved Fast and Secure Hash Algorithm, Journal of Information and Processing Systems, v8(1), pp119-132, 2012.\n\n8. R. Padmavathy, Chakravarthy Bhagvati, Index Calculus Method based on Smooth Numbers of ±1 over Zp*, International Journal of Network Security, v15(1), pp 210-218, 2013.\n\n9. R.Padmavathy, Chakravarthy Bhagvati, Discrete Logarithm Problem using Index Calculus Method, Mathematical and Computer Modelling, (Elsevier), (SCIE) Impact Factor 1.1 v55(1-2), pp161-169, 2012."
+                android:textColor="#333"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journals 2011"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#333"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Poornima A.S, B.B.Amberker, PERSEN: Power Efficient Logical Ring based Key Management for Clustered Sensor Networks, Int. J. of Sensor Networks 2011 – Vol. 10, No.1/2 pp. 94 – 103, 2011\n\n2. A.S.Poornima, B.B.Amberker, Secure Data Collection Using Mobile Data Collector in Clustered Wireless Sensor Networks, IET Wireless Sensor Systems, Vol.1, No.2, pp.85–95, June, 2011.\n\n3. Aparna R, B.B. Amberker, Efficient Scheme to Handle Bursty Behavior in Secure Group Communication using Binomial Trees, Security and Communication Networks, John Wiley (Accepted)\n\n4. R. Padmavathy, Cryptanalysis of C3-PEKE protocol, International Journal of Computer Applications, v20(4), pp 22-31, 2011.\n\n5. R.Padmavathy, Chakravarthy Bhagvati, A Password Attack on S3-PAKE, International Journal of Security and its applications, v5(4), 2011.\n\n6. R.Padmavathy, Impersonating the Server Attack on Simple Three Password Key Exchange Protocol, IJCSES, v5(2), 2011.\n\n7. R.Padmavathy, Chakravarthy Bhagvati, A Small Sub group Attack for Recovering Ephemeral Keys in Chang and Chang Key Exchange Protocol, Journal of Computers v6(4), pp804-811, 2011."
+                android:textColor="#333"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journals 2010"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#333"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Sri Ramesh and Prof T Ramesh Model Driven Framework for Networked Application Software Generation Intl. Journal of computing July 2010.\n\n2. DVLN Somayajulu Professor Noise Addition Scheme in Decision Tree for Privacy Preserving Data Mining Journal of Computing Vol2 ,Issue 1, 2010.\n\n3. Aparna R, B.B. Amberker, A key Management Scheme for Secure Group Communication using Binomial Trees, International Journal of Network Management, Wiley, Vol. 20, pp.383 – 418, November/December 2010.\n\n4. Nagaraj V. Dharwadkar and B. B. Amberker, Digital Watermark Tracking using Intelligent Multi-Agents System, Special Issue , Journal of Applied Computer Science and Mathematics, No.7, pp. 53-56, February, 2010.\n\n5. Nagaraj V. Dharwadkar, B. B. Amberkar, An Efficient Non-blind Watermarking Scheme for Color Images using Discrete Wavelet Transformation, International Journal of Computer Applica tions, Volume 2, Number 3, pp 60-66, May, 2010.\n\n6. Nagaraj V. Dharwadkar, B.B. Amberker, Watermarking Scheme for Color Images using Wavelet Transform based Texture Properties and Secret Sharing, International Journal of Signal Processing, Vol. 6, No.2, pp. 93-100, 2010.\n\n7. Nagaraj V. Dharwadkar, B.B. Amberker, Determining the Efficient Subband Coefficients of Biorthogonal Wavelet for Gray level Image Watermarking, International Journal of Image Processing, Vol. 4, No.2, pp. 89-105, 2010.\n\n8. Nagaraj V. Dharwadkar, B. B. Amberkar, An Efficient and secured Non-blind Watermarking Scheme for Color Images using DWT and Arnold Transformation, International Journal of Computing, Volume 9, Issue 2, pp. 183-191, June 2010.\n\n9. Nagaraj V. Dharwadkar, B. B. Amberkar, Steganographic Scheme for Gray-level Image using Pixel Neighborhood and LSB Substitution, International Journal of Image and Graphics, World Scientific Publishing, vol.10, Issue 4, pp. 589-607,October 2010.\n\n10. Nagaraj V. Dharwadkar, B. B. Amberkar, An Improved Reversible Steganography Scheme Based on Dual Cover Image, Int. J. Multimedia Intelligence and Security, Vol. 1, No. 4, pp. 336-349, 2010.\n\n11. Nagaraj V. Dharwadkar, B. B. Amberker, Sushil Raj Joshi, Visual Cryptography for Color Image using Color Error Diffusion International Journal on Graphics, Vision and Image Processing,vol.10,Issue 1,pp.1-8,2010.\n\n12. R.Padmavathy, Chakravarthy Bhagvati, Improved Index Calculus Method by using the property of Field elements of Zp*, International Journal of Applied Mathematics and Computation, v2(3), pp 49-63, 2010.\n\n13. R.Padmavathy, Chakravarthy Bhagvati, Solving Discrete Logarithm Problem for Ephemeral Key Recovery Chang and Chang Key Exchange Protocol, JIPS, v6(3), pp52-62, 2010.\n\n14. R.Padmavathy, Improved Three Party EKE protocol, Information Technology and Control, v39(3), pp 220-226, 2010.\n\n15. R.Padmavathy, T.Sirisha, Cryptanalysis on a Three Party Key Exchange Protocol-STPKE’, Journal of Information Processing and Systems, v6(1), pp 43-52, 2010 (KCIE), DOI : 10.3745/JIPS.2010.6.1.001, ISSN 1976-913X\n\n16. R.Padmavathy and Chakravarthy Bhagvati, Ephemeral Key Recovery using Index Calculus Method, Journal of Discrete Mathematical Sciences and Cryptography, v13(1), pp29-43, 2010 .\n\n17. R.Padmavathy, Chakravarthy Bhagvati, Improved Random Method using smooth numbers over Zp*, International Journal of Applied Mathematics and Computing, v2(3), pp 49-63, 2010."
+                android:textColor="#333"
+                android:textSize="11dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="#333"
+                android:textSize="11dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS475 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Real-Time Systems, Typical Real-Time Applications, Hard Versus Soft Real-Time Systems, A Reference Model of Real-Time Systems.\n\nCommonly Used Approaches to Hard Real-Time Scheduling, Clock-Driven Scheduling, Priority-Driven Scheduling of Periodic Tasks, Scheduling Aperiodic and Sporadic Jobs in Priority- Driven Systems.\n\nResources and Resource Access Control, Multiprocessor Scheduling and Resource Access Control.\n\nScheduling Flexible Computations and Tasks with Temporal Distance Constraints.\n\nReal-Time Communications, Operating Systems."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Jane Liu, Real-Time Systems, Prentice Hall, 2000.
+2. Philip.A.Laplante, Real Time System Design and Analysis, 3rd Edition, PHI, 2004.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickrts"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

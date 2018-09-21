@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS413 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Classifiers Based on Bayes Decision Theory:\nIntroduction , Bayes Decision Theory, Discriminant Functions and Decision Surfaces , Bayesian Classification for Normal Distributions , Estimation of Unknown Probability Density Functions: Maximum Likelihood Parameter Estimation , Maximum a Posteriori Probability Estimation, Bayesian Inference , Maximum Entropy Estimation , Mixture Models , Nonparametric Estimation ,The Naive-Bayes Classifier , The Nearest Neighbor Rule, Bayesian Networks\n\nLinear Classifiers:\nLinear Discriminant Functions and Decision Hyperplanes, The Perceptron Algorithm , Least Squares Methods, Mean Square Estimation Revisited: , Logistic Discrimination, Support Vector Machines\n\nNon Linear Classifiers:\nThe XOR Problem , The Two-Layer Perceptron , Three Layer Perceptrons, Algorithms Based on Exact Classification of the Training Set , The Backpropagation Algorithm , Variations on the Backpropagation Theme, The Cost Function Choice, Choice of the Network Size, A Simulation Example , Networks with Weight Sharing, Generalized Linear Classifiers, Capacity of the l-Dimensional Space in Linear Dichotomies, Polynomial Classifiers, Radial Basis Function Networks, Universal Approximators, Support Vector Machines: The nonlinear Case, Decision Trees, Combining Classifiers , The Boosting Aprroach to Combine Classifiers\n\nFeature Selection:\nPreprocessing, Feature Selection Based on Statistical Hypothesis Testing, The Receiver Operating Characterisitcs (ROC) Curve , Class Separability Measures , Feature Subset selection , Optimal Feature Generation , Neural Networks and Feature Generation / Selection, The Bayesian Information Criterion\n\nFeature Generation:\nLinear Transforms, Regional Features, Features for Shape and Size Characterization, Typical Features for Speech and Audio Classification Template Matching: Introduction, Similarity Measures Based on Optimal Path Searching Techniques, Measures Based on Correlations, Deformable Template Models\n\nContext Dependent Classification:\nMarkov Chain Models, Hidden Markov Models\n\nClustering Algorithms:\nClustering Algorithms Based on Graph Theory, Competitive Learning Algorithms: Supervised Learning Vector Quantization"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. S Theodoridis and K Koutroumbas – Pattern Recognition, 4th Edition, Academic Press, 2009.\n2. C Bishop – Pattern Recognition and Machine Learning – Springer , 2006\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickpr"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

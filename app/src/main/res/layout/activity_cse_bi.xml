@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS383 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Business Intelligence Introduction – Definition, Leveraging Data and Knowledge for BI, BI Components, BI Dimensions, Information Hierarchy, Business Intelligence and Business Analytics. BI Life Cycle. Data for BI - Data Issues and Data Quality for BI.\n\nBI Implementation - Key Drivers, Key Performance Indicators and operational metrics, BI Architecture/Framework, Best Practices, Business Decision Making.\n\nBusiness Analytics – Objective Curve, Web Analytics and Web Intelligence, Customer Relationship Management.\n\nBusiness/Corporate Performance Management - Dash Boards and Scorecards, Business Activity Monitoring, Six Sigma.\n\nAdvanced BI – Big Data and BI, Social Networks, Mobile BI, emerging trends.\n\nWorking with BI Tools – Pentaho etc.\n\nOverview of managerial, strategic and technical issues associated with Business Intelligence and Data Warehouse design, implementation, and utilization. Critical issues in planning, physical design process, deployment and ongoing maintenance.\n\nData Warehousing (DW): Introduction and Overview; Data Marts, DW architecture – DW components, Implementation options; Meta Data, Information delivery.\n\nETL - Data Extraction, Data Transformation – Conditioning, Scrubbing, Merging, etc., Data Loading, Data Staging, Data Quality.\n\nDimensional Modeling - Facts, dimensions, measures, examples; Schema Design – Star and Snowflake, Fact constellation, Slow changing Dimensions.\n\nOLAP - OLAP Vs OLTP, Multi-Dimensional Databases (MDD); OLAP – ROLAP, MOLAP, HOLAP;\n\nData Warehouse Project Management - Critical issues in planning, physical design process, deployment and ongoing maintenance."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Efraim Turban, Ramesh Sharda, Jay Aronson, David King, Decision Support and Business Intelligence Systems, 9th Edition, Pearson Education, 2009.\n2. David Loshin, Business Intelligence - The Savy Manager's Guide Getting Onboard with Emerging IT, Morgan Kaufmann Publishers, 2009.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickbi"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

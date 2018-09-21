@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS363 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Creating home pages, Introduction to XHTML- Editing XHTML, First XHTML Example, W3C XHTML Validation Service, Headers, Linking, Images, Special Characters and More Line Breaks, Unordered Lists, Nested and Ordered Lists, Internet and World Wide Web Resources.\n\nDynamic HTML:\nObject Model and Collections- Introduction, Object Referencing, Collections all and children, Dynamic Styles, Dynamic Positioning, Using the frames Collection, navigator Object, Summary of the DHTML Object Model, Dynamic HTML: Event Model- Introduction- Event onclick, Event onload, Error Handling with onerror, Tracking the Mouse with Event onmousemove, Rollovers with onmouseover and onmouseout, Form Processing with onfocus and onblur, More Form Processing with onsubmit and onreset, Event Bubbling, More DHTML Events. Dynamic HTML Filters and transitions, Dynamic HTML Data binding with tabular data control, Structured graphics and active X control.\n\nJavaScript:\nFunctions- Introduction, Program Modules in JavaScript, Programmer-Defined Functions, Function Definitions, Random-Number Generation, Example: Game of Chance, Duration of Identifiers, Scope Rules, JavaScript Global Functions, Recursion, Example Using Recursion: Fibonacci Series, Recursion vs. Iteration, JavaScript Internet and World Wide Web Resources. JavaScript arrays, JavaScript objects.\n\nExtensible Markup Language (XML)- Introduction, Structuring Data, XML Namespaces, Document Type Definitions (DTDs) and Schemas, Document Type Definitions, W3C XML Schema Documents, XML Vocabularies, Chemical Markup Language (CML), Other Markup Languages, Document Object Model (DOM), DOM Methods, Simple API for XML (SAX), Extensible Style sheet Language (XSL), Simple Object Access Protocol (SOAP), Internet and World Wide Web Resources,\n\nWeb Servers (IIS, PWS and Apache)- Introduction, HTTP Request Types, System Architecture, Client-Side Scripting versus Server-Side Scripting, Accessing Web Servers, Microsoft Internet Information Services (IIS), Microsoft Personal Web.\n\nMultimedia, PHP, String Processing and Regular Expressions, Form processing and Business logic, Dynamic content, Database connectivity, Applets and Servlets, JDBC connectivity, JSP and Web development Frameworks."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Deitel, Deitel and Nieto, Internet and Worldwide Web - How to Program, 5th Edition, PHI, 2011.\n2. Bai and Ekedhi, The Web Warrior Guide to Web Programming, 3rd Edition, Thomson, 2008.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickwt"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

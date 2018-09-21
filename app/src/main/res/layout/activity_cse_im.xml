@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS435 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction: Overview of the course, Examination and Evaluation patterns; Nature, significance and role of management in organizations.\n\nEvolution of Industry and Principles of management: Evolution of industry and professional management; Functions of management; Organization structures; Hawthorne Experiments and informal organizational structures; Motivational theories and leadership styles.\n\nMarketing Management: Marketing management process; 4P’s of marketing mix; Target marketing; Product life cycle and marketing strategies.\n\nWork Study: Productivity and its role in the economy; Techniques for improving productivity; Method study; Principles of motion economy; Stop watch time study; Work sampling.\n\nQuality Management: Dimensions of quality; Process control charts; Acceptance sampling; Taguchi’s Quality Philosophy; Quality function deployment; Introduction to TQM.\n\nInventory Management: Purpose of inventories; Inventory costs; ABC classification; Economic Order Quantity (EOQ); P and Q systems of inventory control.\n\nProject Scheduling- PERT/CPM: Project activities; Network diagrams; Critical path method (CPM); Programme Evaluation and Review Technique (PERT)."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Koontz., H. et al., Essentials of Management, 7th Edition, MGH, New York, 2007.\n2. Philip Kotler., Marketing Management, 13th Edition, Prentice Hall of India/Pearson, New Delhi, 2009.\n3. Chase, Shankar, Jacobs and Aquilano, Operations and Supply Management, 12th Edition, Tata McGraw Hill, New Delhi, 2010.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickim"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

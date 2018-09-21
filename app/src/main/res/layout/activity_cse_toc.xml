@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS301 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Finite Automata:\nStructural Representations. Automata and Complexity, The Central Concepts of Automata Theory, Alphabets, Strings, Languages, Enabling the Automata to Ignore Actions, Deterministic, non-deterministic, Finite Automata with Epsilon-Transitions, Uses of e-Transitions.\n\nRegular expressions:\nThe Operators of Regular Expressions, Building Regular Expressions, Precedence of Regular-Expression Operators, Finite Automata and Regular Expressions, From DFA's to Regular Expressions, Converting DFA's to Regular Expressions by Eliminating States, Converting Regular Expressions to Automata, Applications of Regular Expressions, Regular Expressions in UNIX, Lexical Analysis, Finding Patterns in Text, Algebraic Laws for Regular Expressions, Associativity and Commutativity, Identities and Annihilators, Distributive Laws, The Idempotent Law, Laws Involving Closures, Pumping Lemma\n\nContext Free Grammars:\nDerivations Using a Grammar, Leftmost and Rightmost Derivations, The Language of a Grammar, Sentential Forms, Parse Tress, Constructing Parse Trees, The Yield of a Parse Tree, Applications of Context-Free Grammars, Parsers, The YACC Parser-Generator, Ambiguity in Grammars and Languages, Ambiguous Grammars, Removing Ambiguity From Grammars\n\nPush Down Automata:\nDefinition of the Pushdown Automaton, A Graphical Notation for PDA's, Instantaneous Descriptions of a PDA, The Languages of a PDA, Acceptance by Final State, Acceptance by Empty Stack, Equivalence of PDA's and CFG's, Context Free Languages - Properties, Normal Forms for Context-Free Grammars, Eliminating Useless Symbols.\n\nTuring Machines:\nIntroduction to Turing Machines, Problems That Computers Cannot Solve, Notation for the Turing Machine, Instantaneous Descriptions for the Turing Machines, Transition Diagrams for Turing Machines, The Language of a Turing Machine, Turing Machines and Halting, Programming Techniques for Turing Machines, Storage in the State, Multiple Tracks, Shifting Over, Subroutines, Extensions to the Basic Turing-Machines, Multiple Turing Machines, Computable Functions.\n\nUndecidability:\nA Language That is Not Recursively Enumerable, Enumerating the Binary Strings, Codes for Turing Machines, The Diagonalization Language, An Undecidable Problem That is RE, Complements of Recursive and RE Languages, The Universal Language, Undecidability of the Universal Language"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. John E. Hopcroft, Rajeev Motwani, Jeffrey D Ullman, Introduction to Automata Theory, Languages and Computation, 2nd Edition, Pearson, 2001\n2. Michael Sipser, Introduction to Theory of Computation, 3rd Edition, Course Technology, 2012.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclicktoc"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

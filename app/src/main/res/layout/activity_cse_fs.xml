@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS203 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:CS101-Problem Solving and Computer Programming\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Fundamental File Structure Concepts:\nField and Record Organization, Using Classes to Manipulate Buffers, Using Inheritance for Record Buffer Classes, Managing Fixed Length, Fixed Field Buffers, An Object-Oriented Class for Record Files.\n\nManaging Files and Records:\nRecord Access, More about Record Structures, Encapsulating Record Operations in a Single Class, File Access and File Organization, Object-Oriented Approach to File Access, Portability and Standardization.\n\nFundamental File Processing Operations: \nPhysical Files and Logical Files, Opening Files, Closing Files, Reading and Writing, Seeking, Special Characters in Files, The UNIX Directory Structure, Physical and Logical Files in UNIX, File-related Header Files, UNIX File System Commands. Object Oriented Support for Entry-Sequenced\n\nIndexed Files of Data Objects- Indexing:\nA Simple Index for Entry-Sequenced File, Template Classes in C++, Object-Oriented support for Indexed, Entry-Sequenced Files of Data Objects, Indexes That Are Too Large to Hold in Memory, Indexing to Provide Access by Multiple Keys, Retrieval Using Combinations of Secondary Keys, Improving the Secondary Index Structure: Inverted Lists, Selective Indexes, Binding.\n\nMultilevel Indexing and B-Trees:\nIntroduction: The Invention of the B-Tree, Statement of the Problem, Binary Search Trees are not a Solution, Multi-level Indexing, A Better Approach to Tree Indexes, B-Trees: Working up from the Bottom, Example of Creating a B-Tree, An Object-Oriented Representation of B-Trees, B-Tree Methods Search, Insert, and Others, B-Tree Nomenclature, Formal Definition of B-Tree Properties, Worst-case Search Depth, Deletion, Merging, and Redistribution, Redistribution during Insertion: A Way to Improve Storage Utilization, B* Trees, Buffering of Pages: Virtual B-Trees, Variable-length Records and Keys.\n\nIndexed Sequential File Access and B+ Trees :\nIndexed Sequential Access, Maintaining a Sequence Set, Adding a Simple Index to the Sequence Set, The Content of the Index: Separators Instead of Keys, he Simple Prefix B+ Tree, Simple Prefix B+ Tree Maintenance, Index Set Block Size, Internal Structure of Index Set Blocks: A Variable-order B-Tree., Loading a Simple Prefix B+ Tree, B+ Trees, B-Trees, B+ Trees, and Simple Prefix B+ Trees in Perspective.\n\nHashing:\nIntroduction, A Simple Hashing Algorithm, Hashing Functions and Record Distributions, How Much Extra Memory Should Be Used, Collision Resolution by Progressive Overflow, Storing More Than One Record per Address: Buckets, Making Deletions, Other Collision Resolution Techniques, Patterns of Record Access.\n\nExtendible Hashing:\nIntroduction, How Extendible Hashing Works, Implementation, Deletion, Extendible Hashing Performance, Alternative Approaches, Multi list and Inverted Files, Sorting of Large Files,\n\nExternal sorting:\nSecondary storage algorithms."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Folk, Zoellick, Riccardi; File Structures: An Object Oriented Approach with C++, 2/e Pearson Publishers, 1997\n2. Gio Wiederhold, Database Design, 2/e, MGH, 2001\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickfs"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

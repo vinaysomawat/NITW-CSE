@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS253 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:CS203: File Structures\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction to DBMS-\nHistorical perspective, File Versus a DBMS, Advantages of DBMS, Describing and storing data in DBMS, Architecture of a DBMS, Different Data Models, Entity Relationship model- features of ER model, conceptual design using ER model, design for large enterprises, Relational model-structure and operations, Integrity constraints over relations, Query languages-Relational Algebra, Relational Calculus and SQL- Queries, Constraints, Form of SQL query, UNION, INTERSECT and EXCEPT, Nested queries, Aggregate Operators, Null values, Complex Integrity constraints in SQL, triggers and Embedded SQL., Database Design- Mapping ER model to Relational form, Functional Dependency-Closer of functional dependencies, closer of attributes, canonical cover and Properties of Decompositions, Normalization process- 1NF, 2NF, 3NF and BCNF, Multivalued dependency- Closer properties of Multivalued dependency and 4NF, Join dependency- PJNF, Decomposition Algorithms.\n\nTransaction Management-\nACID properties, transactions, schedules and concurrent execution of transactions, Concurrency control- lock based protocol, Serializability, recoverability, dealing with deadlocks and Concurrency control without locking. Query Processing-Overview of Query Evaluation, operator evaluation, Algorithms for relational operations- Selection operation, General selection condition, Projection operation, Join operation, set operation and aggregate operation, Evaluation of relational operations. Query optimization-Alternative plans,functions of query optimizer, translating SQL queries into relational algebra, estimating the cost of a plan, relational algebra equivalences, and other approaches to query optimization. Database Recovery- Failure classification, Recovery and atomicity, Log-based recovery shadow paging and Advanced Recovery Techniques. Security and Authorization- Access control, Direct access control and Mandatory access control, Role of DBA, Application development."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Elamsri, Navathe, Somayajulu and Gupta, Fundamentals of Database Systems, 6th Edition, Pearson Education, 2011.\n2. Raghu Ramakrishnan, Johannes Gehrke, Database Management Systems, 3nd Edition, McGraw Hill, 2003.\n3. Silberschatz, Korth and Sudharshan, Database System Concepts, 6rd Edition, McGraw Hill, 2010.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickdbms"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

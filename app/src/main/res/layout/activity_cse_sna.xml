@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS482 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Social Media- Descriptions and Definitions-social media networks-introduction, rise of social media for consumer applications, applying social media to national priorities Social Media Marketing - Theory and Practice, Social Media Marketing (including Viral Marketing), Mobile Marketing, Web Analytics, Social Media Analytics - Criteria of Effectiveness, Metrics, Techniques (e.g., Social Network Analysis, Semantic Analysis, Online Sentiment Analysis), Tools, Social Media Management, Centrality Measures-opinion mining, feature based sentiment analysis,\n\nCommunity Detection-communities in social media, community detection, taxonomy of community criteria, nodes-centric community detection, complete mutuality: cliques, group-centric community detection, latent space models, spectral clustering, hierarchy-centric community detection. Community evaluation- measuring a clustering result, normalized mutual information, evaluation using semantics, Mining Social Network Data, Network Topology Discovery, Link Prediction- definition of link prediction problem, challenges, methods for link prediction-shortest path, neighborhood based preferential attachment, ensemble of all paths, hitting and commute times, rooted page rank. Comparison of different methods.\n\nManaging Big Data, Case Studies-semantic analysi-handling internet slang"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Hansen, Derek, Ben Sheiderman, Marc Smith., Analyzing Social Media Networks with NodeXL: Insights from a Connected World, Morgan Kaufmann, 2011.
+2. Avinash Kaushik., Web Analytics 2.0: The Art of Online Accounta-bility, Sybex, 2009.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclicksna"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

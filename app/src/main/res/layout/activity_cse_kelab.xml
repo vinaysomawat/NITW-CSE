@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS306 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:2\nPre-requisites:None.\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="1. Advanced SQL Analytic functions\n2. Implementation of OLAP operations\n3. Data preprocessing techniques\n4. Cube computation methods\n5. Concept hierarchy method\n6. Write a program in any programming language to generate at least 10,000 transactions in a text file with at least three items.\n7. Write a program to implement the APRIORI algorithm and also test it thoroughly.\n8. Write a program for each of the following to improve APRIORI\nA. Hash based Technique.\nB. Dynamic Item set Counting Algorithm.\nC. Partition Based Approach.\n9. Write a program for FPGROWTH algorithm and also test it.\n10. Write a program to construct an optimized DECISION TREE for a given training data and by using any attribute selection measure.\n11. Write a program for NAÏVE BAYESIAN algorithm for classifying the data.\n12. Implement the K-Means Clustering algorithm for clustering the given data."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Jiawei Han and M Kamber, Data Mining Concepts and techniques, Third Edition, Elsevier Publications, 2011\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickkelab"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

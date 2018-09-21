@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS251 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Object Oriented Thinking – A way of Viewing the World, Computation as Simulation, Messages and Methods; - A Brief History Of Object - Oriented Programming - The History of Java, The White Paper Description; – Object - Oriented Design - Responsibility Implies Noninterference, Programming in the Small and in the Large, Why Begin with Behavior? A Case Study in RDD, CRC Cards – Recording Responsibility, Components and Behavior, Software Components, Formalizing the Interface; - A Paradigm - Program Structure, The Connection to the Java World, Types, Access Modifiers, Lifetime Modifiers; - Ball Worlds – Data Fields, Constructors, Inheritance, The Java Graphics Model, The Class Ball, Multiple Objects of the Same Class; - A Cannon Game – The Simple Cannon Game, Adding User Interaction; Pinball Game Construction Kit – First Version of Game, Adding Targets : Inheritance and Interfaces, Pinball Game Construction Kit : Mouse Events Reconsidered; - Understanding Inheritance – An Intuitive Description of Inheritance, The Base Class Object, Subclass, Subtype, and Substitutability – Forms of Inheritance, Modifiers and Inheritance, The Benefits of Inheritance, The Costs of Inheritance; - A Case Study : Solitaire – The Class Card, The Game – Card Piles- Inheritance in Action, The Application Class, Playing the Polymorphic Game, Building a More Complete Game; - Polymorphism - Varieties of Polymorphism, Polymorphic Variables, Overloading, Overriding, Abstract Methods, Pure Polymorphism; - The AWT – The AWT Class Hierarchy, The Layout Manager, User Interface Components, Panels, Dialogs, The Menu Bar; - Input And Output Streams - Streams versus Readers and Writers, Input Streams, Stream Tokenizer, Output Streams, Object Serialization, Piped Input and Output; - Understanding Graphics - Colour, Rectangles, Fonts, Images, Graphic Contexts, A Simple Painting Program; - Applets And Web Programming – Applets and HTML, Security Issues, Applets and Applications, Obtaining Resources Using an Applet, Combining Applications and Applets."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Timothy Budd , Object Oriented Programming with JAVA, Updated Edition, Pearson Education, 2009.\n2. Herbert Schildt, Java 2 Complete Reference, TMH, 2010.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickoops"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.SecondActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="II Year, I Semester"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Statistical and Numerical Methods"
+                android:onClick="onclicksnme"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Network Analysis"
+                android:onClick="onclickna"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Digital Logic Design"
+                android:onClick="onclickdld"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Discrete Mathematics"
+                android:onClick="onclickdm"/>
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="onclickdsa"
+                android:text="Data Structures and Algorithms"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="File Structures"
+                android:onClick="onclickfs"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Basic Electronics Lab"
+                android:onClick="onclickbelab"
+                />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Data Structures Lab"
+                android:onClick="onclickdsalab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="II Year, II Semester"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="IC Applications"
+                android:onClick="onclickica"/>
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Object Oriented Programming"
+                android:onClick="onclickoops"/>
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Computer Architecture"
+                android:onClick="onclickca"/>
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Database Management Systems"
+                android:onClick="onclickdbms"/>
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Systems Programming"
+                android:onClick="onclicksp"/>
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="IC Applications Lab"
+                android:onClick="onclickicalab"/>
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Database Management Systems Lab"
+                android:onClick="onclickdbmslab"/>
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Programming Lab"
+                android:onClick="onclicksplab"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="III Year, I Semester"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Engineering Economics and Accountancy"
+                android:onClick="onclickeea"/>
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Theory of Computation"
+                android:onClick="onclicktoc"/>
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Operating Systems"
+                android:onClick="onclickos"/>
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Data Warehousing and Data Mining"
+                android:onClick="onclickdwdm"/>
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Software Engineering"
+                android:onClick="onclickse"/>
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Operating Systems Lab"
+                android:onClick="onclickoslab"/>
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Knowledge Engineering Lab"
+                android:onClick="onclickkelab"/>
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="CASE Tools Lab"
+                android:onClick="onclickctlab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="III Year, II Semester"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Language Processors"
+                android:onClick="onclicklp"/>
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Computer Networks"
+                android:onClick="onclickcn"/>
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Language Processors Lab"
+                android:onClick="onclicklplab"/>
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Computer Networks Lab"
+                android:onClick="onclickcnlab"/>
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Design and Analysis of Algorithms"
+                android:onClick="onclickdaa"/>
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Computational Neuroscience"
+                android:onClick="onclickctn"/>
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Web Technologies"
+                android:onClick="onclickwt"/>
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Software Metrics and Software Project Management"
+                android:onClick="onclicksmspm"/>
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Programming Language Concepts"
+                android:onClick="onclickplc"/>
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Unix Tools and Programming"
+                android:onClick="onclickutp"/>
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Parallel Processing"
+                android:onClick="onclickpp"/>
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Advanced Data Structures"
+                android:onClick="onclickadsa"/>
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Advanced Databases"
+                android:onClick="onclickad"/>
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Advanced Data Mining"
+                android:onClick="onclickadm"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IV Year, I Semester"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Distributed Computing"
+                android:onClick="onclickdc"/>
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Cryptography and Network Security"
+                android:onClick="onclickcns"/>
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Security Lab"
+                android:onClick="onclicksl"/>
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Business Intelligence"
+                android:onClick="onclickbi"/>
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Game Theory"
+                android:onClick="onclickgt"/>
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Pattern Recognition"
+                android:onClick="onclickpr"/>
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Semantic Web"
+                android:onClick="onclicksw"/>
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Secure Software Engineering"
+                android:onClick="onclicksse"/>
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Distributed Object Technologies"
+                android:onClick="onclickdot"/>
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Design Patterns"
+                android:onClick="onclickdp"/>
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Advanced Compiler Design"
+                android:onClick="onclickacd"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IV Year, II Semester"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Industrial Management"
+                android:onClick="onclickim"/>
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Wireless and Mobile Computing"
+                android:onClick="onclickwmc"/>
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Machine Learning and Soft Computing"
+                android:onClick="onclickmls"/>
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Model-driven Frameworks"
+                android:onClick="onclickmdf"/>
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Service Oriented Architecture"
+                android:onClick="onclicksoa"/>
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Heterogeneous Computing"
+                android:onClick="onclickhc"/>
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Bio-Informatics"
+                android:onClick="onclickbif"/>
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="DNA Computing"
+                android:onClick="onclickdnac"/>
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Advanced Computer Networks"
+                android:onClick="onclickacn"/>
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Image Processing"
+                android:onClick="onclickip"/>
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Security and Privacy"
+                android:onClick="onclicksnp"/>
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Information Security and Auditing"
+                android:onClick="onclickisna"/>
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Real Time Systems"
+                android:onClick="onclickrts"/>
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Cloud Computing"
+                android:onClick="onclickcc"/>
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Social Network Analysis"
+                android:onClick="onclicksna"/>
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Intelligent Agents"
+                android:onClick="onclickiag"/>
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginTop="10dp"
+                android:text="Big Data Analytics"
+                android:onClick="onclickbda"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS422 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction: Evolution of corporate computing models from centralized to distributed computing, client server models. Benefits of client server computing, pitfalls of client server programming, Benefits of Java Programming with CORBA\n\nCORBA with Java: Review of Java concept like RMI, RMI API, JDBC , applets. CORBA overview Client/Server. Overview of Java ORB\n\nDCOM:\nDCOM and Java, DCOM Java count\n\nIntroducing C# and the .NET Platform:\nUnderstanding .NET Assemblies; Object –Oriented Programming with C#; Callback Interfaces, Delegates, and Events.\n\nBuilding C# applications:\nType Reflection, Late Binding, and Attribute-Based Programming; Object Serialization and the .NET Remoting Layer; Data Access with ADO.NET; XML Web Services.\n\nCore CORBA / Java:\nTwo types of Client/Server invocations-static, dynamic. The static CORBA, first CORBA program, ORBlets with Applets, Dynamic CORBA- portable count, the dynamic count , multi count.\n\nExistential CORBA:\nCORBA initialization protocol, CORBA activation services, CORBA IDL mapping to Java, CORBA Java- to- IDL mapping, the introspective CORBA/Java object. Java Bean Component Model: Events, properties, persistency, Introspection of beans, CORBA Beans.\n\nEJBs and CORBA:\nObject transaction monitors CORBA OTM’s, EJB and CORBA OTM’s, EJB container frame work, Session and Entity Beans, The EJB client/server development Process The EJB container protocol, support for transaction EJB packaging EJB design Guidelines."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Robert Orfali and Dan Harkey, Client/Server Programming with Java and CORBA, 2nd Edition, John Wiley and Sons, 1998.\n2. Robert J. Oberg, Introduction to C# Using .NET, Prentice Hall, 2002\n3. G. Brose, A Vogel, K Duddy, Java Programming with CORBA, 3rd Edition, Wiley, 1998.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickdot"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

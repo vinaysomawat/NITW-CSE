@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS254 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Fundamentals Of PC Hardware And Software:\nBasic Features of PC Hardware, Instruction Addressing and Execution, Examining Computer Memory and Executing Instructions.\n\nFundamentals of Assembly Language:\nRequirements for Coding in Assembly Language, Assembling, Linking, and Executing Programs, Symbolic Instructions and Addressing, Program Logic and Control.\n\nVideo and Keyboard Operations:\nIntroduction to Video and Keyboard Processing, Video Systems, Keyboard Processing.\n\nData Manipulation:\nProcessing String Data, Arithmetic I: Processing Binary Data, Arithmetic II: Processing ASCII and BCD Data, Defining and Processing Tables.\n\nAdvanced Input/output:\nFacilities for Using the Mouse, Disk Storage I: Organization, Disk Storage II: Writing and Reading Files, Disk Storage III: INT 21H Functions for Support Disks and Files, Disk Storage IV: INT 13H Disk Functions, Facilities for Printing.\n\nSpecial Topics:\nDefining and Using Macros, Linking to Subprograms, Program Loading and Overlays, TSR Programming, Introduction to assemblers, Algorithms to built macro processors, Brief note on loaders"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Peter Abel, Assembly Language Programming, 5th Edition, Pearson Education, 2003\n2. Sivarama P. Dandamudi, Introduction to Assembly Language Programming, Speinger 1st Edition 2003\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclicksp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.SecondActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="Areas of Research"
+                android:textColor="#005a9b"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bio-Informatics\n\nComputer Networks\n\nCryptanalysis\n\nDatabase Technologies Data Mining / IDS\n\nDistributed Systems\n\nInformation Security\n\nMachine Learning\n\nModel driven framework for automated software generation in Distributed Systems environment\n\nNeural Networks and Soft Computing\n\nParallel Processing\n\nRough and Fuzzy systems\n\nSoftware Engineering\n\nSecure Multi-party Computations\n\nMobile Computing, Wireless Ad-hoc and Sensors Net-works, Cyber Physical Systems and Security\n\nComputational Neuroscience\n\nComputer Vision, Image Processing and Graphics and Multimedia\n\nAlgorithms and Graph Theory"
+                android:textColor="#333"
+                android:textSize="11dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

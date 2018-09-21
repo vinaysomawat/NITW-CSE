@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS353 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:2\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="1. Lex and Yacc - Generation of Intermediate Code for Expression Grammar - Construction of Predictive Parsing Table - LR Parsing Tables - Parsing Actions.\n2. Implement CYK algorithm (from Motwani’s book)\n3. Using lex/yacc tools generate assembly language code for a block of assignment and arithmetic statements.\n4. Implement elimination of left recursion and left factoring algorithms for any given grammar and generate predictive parsing table.\n5. Write a program for generating a parser program using lex and yacc for a language with integer identifiers, binary arithmetic expressions and assignments. (Input is grammar and output is parser in C language)\n6. Write a program for generating SLR Parsing table and also write a parser.\n7. Write a program for generating derivation sequence for a given terminal string using parsing table.\n8. Using back-patching method generate three address code for while, if and Boolean expressions.\n9. Major assignment: Intermediate code generation for subset C language."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Aho, Ravi Sethi, Monica S Lam, Ullman, Compilers - Principles, Techniques and Tools, 2nd Edition, Pearson, 2002.\n2. John R Levine, Tony Mason, Doug Brown, Lex and Yacc, Orielly, 2nd Edition, 2009\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclicklplab"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

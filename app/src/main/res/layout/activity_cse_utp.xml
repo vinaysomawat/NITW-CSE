@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS373 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Unix Introduction :\nArchitecture, Features, Internal and External commands, Manual pages, startup, shutdown, login, logout\n\nUnix Commands :\nat, banner, batch, bc, cal, cat, cd, cmp, comm, chmod, chown, chgrp, cp, cron, cut, date, dd, diff, echo, finger, find, ftp, head, kill, lock, ln, ls, lp, lpstat, man, mesg, mkdir, more, mv, nl, nice, passwd, pr, paste, ping, ps, pwd, rcp, rlogin, rmdir, rm, rsh, split, sort, tail, talk, tar, telnet, touch, tput, tr, tty, uname, uniq, wc, who, write\n\nShell Programming :\nDifferent types of shells, shell environment, Pattern matching - wild cards, Escaping, quoting, File I/O, Redirection, Pipes, Command substitution, shell variables, Aliases, Command history, interactive shell scripting, if, case, for, while constructs, terminal capabilities, Text based user interface development\n\nFilters :\nRegular expressions, grep, pr, head, tail, cut, paste, sort, uniq, tr, introduction to sed and awk\n\nBackup:\nBackup using tar and cpio\n\nProgram development tools :\nmake, ar, SCCS, RCS, CVS, gdb, gnu compilers, rpm, memory leakage, autoconf, automake, indent.\n\nLex and Yacc :\n(flex, bison), Recognizing words with lex, Regular expressions, Parsing command line, Start states, Example lex programs, Grammars, Shift/Reduce parsing, Definitions, rules and Actions sections, Ambiguity, precedence rules, variables, typed tokens, Symbol tables, Functions and reserved words"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Sumitabha Das, Unix Concepts and Applications, TMH, 4/e, 2008\n2. John R Levine, Tony Mason, Doug Brown, Lex and Yacc, Orielly, 2nd Edition, 2009\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickutp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

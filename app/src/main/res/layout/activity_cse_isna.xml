@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS474 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Computer Auditing- System Access control, Data Access Control, Security Administration, System Design. Hardware Security Controls - The Total System Needs Securing, Levels of Hardware Controls, Operating System Controls , Access Controls, General-Purpose Operating Systems Security , Sources of Additional Information Software Controls - Software Security and Controls, Types of Software Intrusions, Configuration Management , Modularity and Encapsulation, Protecting Information, Selecting Security Software, Analysis of Software Products Database Security - Introduction to Databases, Security Requirements of Databases, Designing Database Security, Methods of Protection, Security of Multilevel Databases,The Future of Databases. Network and Telecommunication Security - Telecommunications and Networks, Security Considerations, Cases in Point, Special Communications, Security Considerations. Microcomputer Security - Microcomputer Problems and Solutions , The Microcomputer Environment , Security of Microcomputers, Internal Data Security, The Threats to Micros, Developing a Micro Security Plan, Establishing a Micro-to-Mainframe Link , Portable Microcomputer Security , Password Protection, Security of Special Micro Applications."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Deborah Russell, Computer Security Basics, O'Reilly and Associate, 1991.
+2. Karen A. Forcht, Computer Security Management, Boyd and Fraser Publishing Co., 1994.
+3. Donald A. Watne, Peter B.B. Turney, Auditing EDP Systems, 2nd Edition, PH 1990\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickisna"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

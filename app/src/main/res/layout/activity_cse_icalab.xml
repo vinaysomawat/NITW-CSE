@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:EC288 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:2\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="1. Study and Operation of IC testers, pulse generator and digital trainer.\n2. Measurement of Op.amp parameters:\n(i) Offset voltage\n(ii) Offset current\n(iii) CMRR\n(iv) Slew rate\n(v) Open loop gain\n(vi) Input impedance.\n3. Op.amp monostable and astable multivibrators.\n4. 555 timer: Monostable and astable multivibrators.\n5. Characteristics of TTL NAND gate:\n(i) Sourcing \n(ii) Sinking \n(iii) Transfer\n6. Study of flip-flops: RS, JK, T and D.\n\n7. Mod-N counter using 7490 and 74190.\n8. Mod-N counter using 7492 and 74192.\n9. MUX and decoder ICSs(IC 74153 and 74138).\n10. Shift register IC 7495."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. J.Millman, Microelectronics, Mcgrawhill, 1987.\n2. Ramakant A. Gayakwad, Operational amplifiers and Linear IC technology, PHI, 1987\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickicalab"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

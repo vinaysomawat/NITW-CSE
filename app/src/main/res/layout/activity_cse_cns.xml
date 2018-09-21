@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS402 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:CS352: Computer Networks\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Need for Security – Attacks, Services and Mechanisms, Classical encryption Techniques, Block ciphers and data encryption, standard.\n\nAdvanced encryption standard, evaluation criteria of AES, Symmetric ciphers- multiple encryption and triple DES, Block cipher modes of operation, Stream ciphers and RC4, Stream ciphers – Blowfish, Modern Symmetric encryption - IDEA, Confidentiality using Symmetric Encryption, Placement of encryption function, traffic confidentiality, Random number generation.\n\nIntroduction to number theory- Prime numbers, Fermat’s and Euler’s theorems, Chinese Remainder Theorem, Discrete logarithms, Public key cryptography - Principles of public key cryptosystems and RSA, Key management, Diffie-Hellman key exchange, Elliptic curve arithmetic, Elliptic curve cryptography, Key Distribution, Message authentication and Hash functions-Authentication functions, Security and Hash functions and MACs, HMAC, CMAC, Digital signatures and authentication protocols, Authentication protocols, Digital signature standard.\n\nAttacks- Denial-of-service/Distributed denial-of-service attacks, Back door, Spoofing, Man-in-the-middle, Replay, TCP/Hijacking, Fragmentation attacks, Weak keys, Mathematical attacks, Social engineering, Port scanning, Dumpster diving, Birthday attacks, Password guessing, Software exploitation, Inappropriate system use, Eavesdropping, War driving, TCP sequence number attacks, War dialing/demon dialing attacks.\n\nOther public Key Cryptosystems –Public key algorithms using GMP\n\nIntroduction to packet sniffing tool, Architecture of SSL, Attacks on SSL, Introduction to Intruder detection System, Snort and stenographic tools.\n\nWireless and IP Security-IEEE 802.11 Wireless Security, WEP, WEP security upgrades, IEEE 802.11i, Wireless application protocol, IP Security architecture, Authentication header, Encapsulating security pay load, combining security associations."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Eric Cole, Dr. Ronald Kurtz and James W. Conley, Network Security Bible, Wiley Publishers, 2009\n2. Jason Albanese and Wes Sonnenreich, Network Security Illustrated, MGH Publishers, 2003\n3. William Stallings, Cryptography and Network Security, Pearson Education, 2006\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickcns"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

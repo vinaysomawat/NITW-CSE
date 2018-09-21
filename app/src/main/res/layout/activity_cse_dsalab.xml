@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS204 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:2\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="1. Write a program to implement stack using arrays.\n\n2. Write a program to evaluate a given postfix expression using stacks.\n\n3. Write a program to convert a given infix expression to postfix form using stacks.\n\n4. Write a program to implement circular queue using arrays.\n\n5. Write a program to implement double ended queue (de queue) using arrays.\n\n6. Write a program to implement a stack using two queues such that the push operation runs in constant time and the pop operation runs in linear time.\n\n7. Write a program to implement a stack using two queues such that the push operation runs in linear time and the pop operation runs in constant time.\n\n8. Write a program to implement a queue using two stacks such that the enqueue operation runs in constant time and the dequeue operation runs in linear time.\n\n9. Write a program to implement a queue using two stacks such that the enqueue operation runs in linear time and the dequeue operation runs in constant time.\n\n10. Write programs to implement the following data structures:\n(a) Single linked list\n(b) Double linked list\n\n11. Write a program to implement a stack using a linked list such that the push and pop operations of stack still take O(1) time.\n\n12. Write a program to implement a queue using a linked list such that the enqueue and dequeue operations of queue take O(1) time.\n\n13 . Write a program to create a binary search tree(BST) by considering the keys in given order and perform the following operations on it.\n(a) Minimum key\n(b) Maximum key\n(c) Search for a given key\n(d) Find predecessor of a node\n(e) Find successor of a node\n(f) delete a node with given key\n\n14. Write a program to construct an AVL tree for the given set of keys. Also write function for deleting a key from the given AVL tree.\n\n15. Write a program to implement hashing with (a) Separate Chaining and (b) Open addressing methods.\n\n16. Implement the following sorting algorithms:\n(a) Insertion sort\n(b) Merge sort\n(c) Quick sort\n(d) Heap sort\n\n17. Write programs for implementation of graph traversals by applying:\n(a) BFS\n(b) DFS\n\n18. Write programs to find out a minimum spanning tree of a simple connected undirected graph by applying:\n(a) Prim’s algorithm\n(b) Kruskal’s algorithm\n\n19. Write a program to implement Dijkstra’s algorithm for solving single source shortest path problem using priority queue.\n\n20. Write a program to implement Floyd-Warshall algorithm for solving all pairs shortest path problem."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein, Introduction to Algorithms, Second Edition, PHI, 2009.\n2. Mark Allen Weiss, Data Structures and Algorithm Analysis in C++, Third Edition, Pearson Education, 2006\n3. Ellis Horowitz, Sartaj Sahni and Sanguthevar Rajasekaran, Fundamentals of Computer Algorithms, Second Edition, Universities Press, 2011.\n4. Michael T.Goodrich and Roberto Tamassia, Algorithm Design: Foundations, Analysis and Internet Examples, Second Edition, Wiley-India, 2006.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickdsalab"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

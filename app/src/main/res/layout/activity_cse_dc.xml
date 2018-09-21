@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS401 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:CS302: Operating Systems, CS352: Computer Networks\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Distributed Computing Introduction :\nDefinition, Relation to parallel systems, synchronous vs asynchronous execution, design issues and challenges\n\nA Model of Distributed Computatioms :\nA Model of distributed executions, Models of communication networks, Global state of distributed system, Models of process communication.\n\nLogical Time :\nLogical clocks, scalar time, vector time, Matrix time, vrtual time, Physicla clock synchronization - NTP\n\nGlobal state and snapshot recording algorithms:\nSystem model, Snapshot algorithms for FIFO channels, Variations of Chandy-Lamport algorithm, Snapshot algorithms for non-FIFO channels, Snapshots in a causal deluvery system, Monitoring global state, Nececssary and sufficient conditions for consistent global snapshots, Finding consistent global snapshots in a distributed computation.\n\nMessage ordering and group communication :\nMesage ordering paradigms, Group communication, Causal order (CO), Total order, Multicast, Propagation trees for multicast, Application-level multicast algorithms, Fault-tolerant group communication, Multicast algorithms at the network layer.\n\nTermination detection :\nSystem model of a distributed computation, Termination detection using distributed snapshots, weight throwing and spanning-tree-based algorithms, Message-optimal termination detection, Termination detection in a very general distributed computing model, Termination detection in the atomic computation model, Termination detection in a faulty distributed system\n\nDistributed mutual exclusion algorithms:\nLamport’s algorithm, Ricart–Agrawala algorithm, Singhal’s dynamic information-structure algorithm, Lodha and Kshemkalyani’s fair mutual exclusion algorithm, Quorum-based mutual exclusion algorithms, Maekawa’s algorithm, Agarwal–El Abbadi quorum-based algorithm, Token-based algorithms, Suzuki–Kasami’s broadcast algorithm, Raymond’s tree-based algorithm,.\n\nDeadlock detection in distributed systems:\nSystem model, Models of deadlocks, Knapp’s classification of distributed deadlock detection algorithms, Mitchell and Merritt’s algorithm for the single resource model, Chandy–Misra–Haas algorithm for the AND model, Chandy–Misra–Haas algorithm for the OR model, Kshemkalyani–Singhal algorithm for the P-out-of-Q model\n\nDistribued shared memory :\nAbstraction and advantages, Memory consistency models, Shared memory mutual exclusion, Wait-freedom, Register hierarchy and wait-free simulations, Wait-free atomic snapshots of shared objects\n\nCheck pointing and rollback recovery :\nIntroduction, Background and definitions, Issues in failure recovery, Checkpoint-based recovery, Log-based rollback recovery, Koo–Toueg coordinated checkpointing algorithm, Juang–Venkatesan algorithm for asynchronous checkpointing and recovery, Manivannan–Singhal quasi-synchronous checkpointing algorithm, Peterson–Kearns algorithm based on vector time, Helary–Mostefaoui–Netzer–Raynal communication-induced protocol\n\nConsensus and agreement algorithms :\nProblem definition, Overview of results, Agreement in a failure-free system (synchronous or asynchronous), Agreement in (message-passing) synchronous systems with failures, Agreement in asynchronous message-passing systems with failures, Wait-free shared memory consensus in asynchronous systems\n\nFailure detectors :\nUnreliable failure detectors, The consensus problem, Atomic broadcast, A solution to atomic broadcast, The weakest failure detectors to solve fundamental agreement problems, An implementation of a failure detector, An adaptive failure detection protocol"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Ajay D. Kshemakalyani, Mukesh Singhal, Distributed Computing,Cambridge University Press, 2008\n2. Andrew S. Tanenbaum, Maarten Van Steen, Distributed Systems - Principles and Paradigms, PHI, 2004\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickdc"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

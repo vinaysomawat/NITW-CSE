@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS302 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:CS252:Computer Architecture,\nCS254: Systems Programming\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction:\nBatch, iterative, time sharing, multiprocessor, distributed, cluster and real-time systems, Unix system introduction and commands\n\nOperating system structures :\nComputer system structure, Network structure, I/O Structure, Storage Structure, Dual mode operation, System components, Operating-System Services, System Calls, System Programs, System structure, Virtual Machines, System Design and Implementation, System Generation\n\nProcesses and Threads :\nProcess Concept, Process Scheduling, Operations on Processes, Cooperating Processes, Interprocess Communication, Communication in Client – Server Systems, Multithreading Models, Threading Issues, Pthreads Basic Concepts,\n\nCPU Scheduling :\nScheduling Criteria, Scheduling Algorithms, Multiple-Processor Scheduling, Real-Time Scheduling, Algorithm Evaluation, Process Scheduling Models\n\nProcess Synchronization :\nSynchronization Background, The Critical-Section Problem, Synchronization Hardware, Semaphores, Classic Problems of Synchronization, Critical Regions, Monitors, OS Synchronization\n\nDeadlocks :\nSystem Model, Deadlock Characterization, Methods for Handling Deadlocks, Deadlock Prevention, Deadlock Avoidance, Deadlock Detection, Recovery from Deadlock\n\nMemory Management :\nMemory Management Background, Swapping, Contiguous Memory Allocation, Paging, Segmentation, Segmentation with Paging, Virtual Memory, Demand Paging, Process Creation, Page Replacement, Allocation of Frames, Thrashing, Operating-System Examples, Other Considerations\n\nFile System :\nFile Concept, Access Methods, Directory Structure, File-System Mounting, File Sharing, Protection File-System Structure, File-System Implementation, Directory Implementation, Allocation Methods, Free-Space Management, Efficiency and Performance, Recovery, Log-Structured File System, NFS\n\nI/O Systems :\nHardware, Application I/O Interface, Kernel I/O Subsystem, Transforming I/O to Hardware Operations, STREAMS, Performance, Disk Structure , Disk Scheduling , Disk Management, Swap-Space Management, RAID Structure , Disk Attachment, Stable-Storage Implementation, Tertiary-Storage Structure\n\nProtection :\nGoals of Protection, Domain of Protection, Access Matrix, Implementation of Access Matrix, Revocation of Access Rights, Language-Based Protection, Capability-Based Systems, The Security Problem , User Authentication , Program Threats, System Threats, Securing Systems and Facilities, Intrusion Detection, Cryptography, Computer-Security Classifications"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Abraham Silberschatz, Peter Baer Galvin, Greg Gagne, Operating System Principles, Wiley, 8/e\n2. Richard Stevens, Stephen Rago, Advanced Programming in the UNIX Environment, Pearson Education, 2/e\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickos"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

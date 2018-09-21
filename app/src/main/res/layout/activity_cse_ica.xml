@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:EC287 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Operational Amplifiers:\nMonolithic operational amplifiers, Characteristics, Specifications, Measurement of operational amplifier parameters.\n\nApplication Of Linear ICs:\nOperational Amplifier Applications:\nInverting and non-inverting amplifiers, comparators, sine wave oscillators, Astable and Monostable multivibrators, Logarithmic amplifier. Other ICs: 555 timer and its applications, uA 723 and its applications.\n\nDigital Integrated Circuits And Applications: Study of Logic Families:\nTTL, CMOS circuits, Logic gate ICs. Combinational Logic: IC Versions of combinational logic circuits multiplexer, decoder, demultiplexer, tristate buffers, binary adders.\n\nSequential Logic:\nIC Versions of sequential logic circuits, flip-flops, synchronous and asynchronous counters, Registers.Design of modulus counters. Semiconductor memories: RAM, ROM (Cell structures and organization on chip). Data Conversion Circuits: specifications, Integrated D/A converters (DAC O80X), Integrated A/D converters (ADC 080X)."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. J.Millman, Microelectronics, Mc grawhill, 1987.\n2. Ramakant A. Gayakwad, Operational amplifiers and Linear IC technology, PHI, 1987.\n3. Taub and Schilling, Digital Electronics, Mc grawhill, 1986.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickica"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

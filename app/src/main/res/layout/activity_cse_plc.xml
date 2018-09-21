@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS371 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction- The Origins of Programming Languages- Abstractions in Programming Languages - Computational Paradigms -Language Definition - Language Translation\n\nLanguage Design Criteria – Efficiency, regularity, security and extensibility - C++: An Object-Oriented Extension of C-Python: A General-Purpose Scripting Language –\n\nFunctional Programming - Programs as Functions - Scheme: A Dialect of Lisp - ML: Functional Programming with static typing -Delayed Evaluation- Haskell- Overloading .\n\nLogic Programming-Logic and Logic Programs - Horn Clauses -Resolution and Unification- The Language Prolog - Problems with Logic Programming\n\nObject-Oriented Programming- Software Reuse and Independence Smalltalk Java C++ - Design Issues in Object-Oriented Languages - Implementation Issues in Object-Oriented\n\nLanguages\n\nSyntax-Lexical Structure of Programming Languages -Context-Free Grammars and BNFs -Parse Trees and Abstract Syntax Trees - EBNFs and Syntax Diagrams - Parsing Techniques and Tools-Lexics vs. Syntax vs. Semantics\n\nBasic Semantics -Attributes, Binding, and Semantic Functions - Declarations, Blocks, and Scope - The Symbol Table - Name Resolution and Overloading - Allocation, Lifetimes, and the Environment Variables and Constants Aliases, Dangling References, and Garbage\n\nData Types-Data Types and Type Information - Simple Types - Type Constructors - Type Nomenclature in Sample Languages -Type Equivalence- Type Checking -Type Conversion- Polymorphic Type Checking- Explicit Polymorphism\n\nControl Expressions and Statements –Expressions - Conditional Statements and Guards- Exception Handling- Procedure Definition and Activation-Procedure Semantics- Parameter-Passing Mechanisms- Procedure Environments, Activations, and Allocation-Dynamic Memory Management- Exception Handling and Environments\n\nAbstract Data Types and Modules - The Algebraic Specification of Abstract Data Types- Abstract Data Type Mechanisms and Modules -Separate Compilation in C, C++ Namespaces, and Java Packages- Ada Packages -Modules in ML- Problems with Abstract Data Type Mechanisms\n\nFormal Semantics- A Sample Small Language- Operational Semantics -Denotational Semantics- Axiomatic Semantics- Proofs of Program Correctness-\n\nParallel Programming- Introduction to Parallel Processing- Parallel Processing and Programming Languages- Threads – Semaphores- Monitors –Message Passing."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Kenneth C. Louden, Programming Language Principles and Practices, 2nd Edition, Thomson 2003.\n2. Carlo Ghezzi, Mehdi Jazayeri, Programming Language Concepts, 3rd Edition, John Wiley and Sons, 1997.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickplc"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

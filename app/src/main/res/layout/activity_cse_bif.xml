@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS464 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction to Bioinformatics: What is a Data Base, Types of Databases, Biological Databases, Pitfalls of Biological Databases, Information Retrieval from Biological Databases, Pair wise Sequence Alignment: Evolutionary Basics, Sequence homology versus similarity, Sequence similarity versus Identity, Scoring Matrices, Statistical Significance of Sequence alignment, Database similarity searching: Unique requirement of Database searching, Heuristic Database searching, Basic alignment search tool: Comparison of FASTA and BLAST, Multiple Sequence Alignment, Scoring Function, Exhaustive Algorithms, Heuristic Algorithms, Gene Prediction, Categories of gene prediction programs, Gene prediction in prokaryotes and Eukaryotes, Phylogenetics Basics Molecular phylogenetics and molecular basics Gene phylogeny versus species phylogeny, Forms of tree representation, Why finding a true tree is difficult, Phylogenetic tree construction methods and programs Protein structure basics: Amino acid, peptide formation, Dihedral Angles, Hierarchy, Secondary structures, Tertiary structure, Determination of protein 3-D structure, Protein structure data base, Genome mapping, assembly and comparison, Genome mapping, Genome sequencing, Genome sequence assembly, Genome Annotation, Comparative genomics, Functional Genomics, Sequence based approaches, Microarray based approaches, Comparisons of SAGE and DNA microarray."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Jin Xiong, Essential Bioinformatics, 1th Edition, Cambridge University Press, 2011.\n2. Arthur M Lesk, Introduction to Bioinformatics, 2nd Edition, Oxford University Press, 2007.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickbif"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

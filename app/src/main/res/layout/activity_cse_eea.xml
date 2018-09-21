@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:SM335 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Engineering Economics:\nIntroduction to Engineering Economics – Fundamental concepts – Time value of money – Cash flow and Time Diagrams – Choosing between alternative investment proposals – Methods of Economic analysis. The effect of borrowing on investment- Various concepts of National Income – Significance of National Income estimation and its limitations, Inflation –Definition – Process and Theories of Inflation and measures to control, New Economic Policy 1991 – Impact on industry.\n\nAccountancy:\nAccounting Principles, Procedure – Double entry system – Journal – Ledger, Trail Balance – Cash Book – Preparation of Trading, Profit and Loss Account – Balance sheet.\n\nCost Accounting – Introduction – Classification of costs – Methods of costing – Techniques of costing – Cost sheet and preparation of cost sheet- Breakeven Analysis – Meaning and its application, Limitations."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Henry Malcom Stenar, Engineering Economic Principles, McGraw Hill, 2005.\n2. K K Dewett, Modern Economic Theory, Siltan Chand and Co., 2005.\n3. Agrawal AN, Indian Economy, Wiley Eastern Ltd, New Delhi, 2012.\n4. Jain and Narang, Accounting Part-I, Kalyani Publishers, 2012.\n5. Arora, M.N., Cost Accounting, Vikas Publications, 2013.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickeea"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

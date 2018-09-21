@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS307 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:2\nPre-requisites:None.\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="1. Develop a Software Project Plan Using Microsoft Project (Planning involves estimation – work break down structure – how much money- how much effort – how many resources – how much time it will take to a specific software –based system or product)\n2. Develop a SRS Document using Rational Requisite Pro Tool. (This Lab is for mastering the software requirements in this regard the documents like Vision Document- Use Case Document – SRS Documents must be submitted for the Problem given to you )\n3. Designing a Software using UML – Tool used is Rational Rose- In this lab, the student is supposed to solve the problem using OO analysis and design Methodology\n4. Testing using tools Rational Robot, Rational Purify, Rational Quantify, Rational Pure Coverage etc., (Functional and Structural Testing techniques were discussed and necessary programs will be tested)\n5. Writing a programs for the following : Quality Metrics and OO Metrics, Finding the coupling and cohesion intensity in java code, Reverse Engineering Problems\n6. Web site Testing , Security Testing , System Testing"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Rational Online Documentation\n2. Booch, Jackobson and Rambaugh, UML Guide , Pearson Edu, 1999\n3. IEEE Standards for SRS Documents, IEEE Std. 830.\n4. Fenton NE, Software Metrics: A Rigorous Approach, Chapman and Hall, 1991\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickctlab"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

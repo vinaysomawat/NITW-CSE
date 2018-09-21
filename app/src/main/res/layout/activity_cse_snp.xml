@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS473 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction to security and privacy, Number theory, Formal analysis and design of algorithms and protocols, Provably security, Cryptosystems.\n\nPrivacy, Foundations of privacy, Differential privacy, Definitions and early uses, Privacy regulations, Noiseless differential privacy, Privacy preserving, Data mining techniques.\n\nMeasuring compliance with security and privacy regulations and standards, Security and Privacy Metrics.\n\nPhysical security, IT security, Personal Security, Operational security.\n\nSecurity and privacy in social networks, Measurement of user behavior in social networks, An effective user user-driven framework for selection of social networks, Providing group anonymity in social networks."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. J. Thomas Shaw, “Information Security Privacy”, ABA, 2012.\n2. Matthew Bailey, “Complete Guide to Internet Privacy, Anonymity and Security”, Nerel Online, 2011.\n3. D. S. Herrmann, “A complete guide to security and privacy metrics”, Auerbach Publisher (Taylor and Francis Group), 2007\n4. A. Abraham, “Computational Social Networks: security and privacy”, Springer, 2012\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclicksnp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

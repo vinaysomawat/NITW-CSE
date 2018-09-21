@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS362 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Analyzing And Modeling Neural Responses:\nIntroduction-Properties of Neurons, Recording Neuronal Responses, From Stimulus to Response Spike Trains and Firing Rates-Measuring Firing Rates, Tuning Curves, Spike-Count Variability What Makes a Neuron Fire?-Describing the Stimulus, The Spike-Triggered Average, White-Noise Stimuli, Multiple-Spike-Triggered Averages and Spike-Triggered correlations, Spike Train Statistics-The Homogeneous Poisson Process, The Spike-Train Autocorrelation Function, The Inhomogeneous Poisson Process, The Poisson Spike Generator, Comparison with Data, The Neural Code-Independent-Spike, Independent Neuron and Correlation Codes, Temporal Codes\n\nInformation Theory :\nEntropy and Mutual Information, Entropy, Mutual Information, Entropy and Mutual Information for Continuous Variables Information and Entropy Maximization-Entropy Maximization for a Single Neuron, Populations of Neurons, The Whitening Filter, Filtering Input Noise, Temporal Processing in the LGN, Cortical Coding Entropy and Information for Spike Trains\n\nModeling Neurons And Networks :\nLevels of Neuron Modeling-Levels of Neuron Modeling, Single-Compartment Models-Integrate-and-Fire Models, Spike-Rate Adaptation and Refractoriness, Hodgkin-Huxley model, Firing-rate Models- Feed forward Networks-Neural Coordinate Transformations, Recurrent Networks, Network Stability, Associative Memory, Excitatory-Inhibitory Networks-Homogeneous Excitatory and Inhibitory Populations, Phase-Plane Methods and Stability Analysis, The Olfactory Bulb, Oscillatory Amplification, Stochastic Networks\n\nPlasticity And Learning :\nSynaptic Plasticity Rules-The Basic Hebb Rule, The Covariance Rule, The BCM Rule, Synaptic Normalization, Subtractive Normalization, Multiplicative Normalization and the Oja Rule, Timing-Based Rules, Unsupervised Learning, Supervised Learning-Supervised Hebbian Learning, Classification and the Perceptron, Function Approximation-Supervised Error-Correcting Rules, The Perceptron Learning Rule, The Delta Rule-Contrastive Hebbian Learning"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Peter Dayan and L F Abbott, Theoretical Neuroscience, MIT Press, 2001.\n2. Christopher Koeli, Electrophysics of Neuron, 1st Edition, MIT Press, 2004.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickctn"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

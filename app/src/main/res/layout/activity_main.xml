@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING"
+            android:textColor="#005a9b"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="The Department of Computer Science and Engineering was established in the year 1991. The department offers high quality undergraduate, postgraduate and doctoral programs."
+            android:textColor="#333"
+            android:textSize="11dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:text="The Department of Computer Science and Engineering was established in the year 1991. The department offers high quality undergraduate, postgraduate and doctoral programs. The B. Tech (Computer Science and Engineering) program was started in the year 1983 with an intake of 20 students. The intake was subsequently increased to120 in 2008. M. Tech (Computer Science and Engineering) program was started in 1987 with an intake of 18 and subsequently increased to 20 in 2008. M. Tech (Information Security) was introduced in the year 2008 Under ISEAP sanctioned by Ministry of Communication and Information Technology (MCIT), DOE, GOI, New Delhi with intake of 20. Later, it was renamed as Computer Science and Information Security. The Master of Computer Applications (MCA) program was started in 1986 with an intake of 30 and increased to 46 from 2008. B.Tech, M.Tech (CSE) and M.Tech (CSIS) programs were accredited in 2014 by NBA as per Washington Accord. "
+            android:textColor="#333"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:text="VISION"
+            android:layout_marginTop="10dp"
+            android:textColor="#005a9b"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attaining global recognition in Computer Science and Engineering education, research and training to meet the growing needs of the industry and society."
+            android:textColor="#333"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:text="MISSION"
+            android:layout_marginTop="10dp"
+            android:textColor="#005a9b"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imparting quality education through well-designed curriculum in tune with the challenging software needs of the industry.
+
+Providing state-of-art research facilities to generate knowledge and develop technologies in the thrust areas of Computer Science and Engineering.
+
+Developing linkages with world class organizations to strengthen industry-academia relationships for mutual benefit."
+            android:textColor="#333"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/textview12"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:text="COURSES"
+            android:layout_marginTop="10dp"
+            android:textColor="#005a9b"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sample"
+            android:onClick="onclickbtn"
+            android:text="Under Graduate Courses" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sample"
+            android:onClick="onclickbtn1"
+            android:text="Post Graduate Courses" />
+        <TextView
+            android:id="@+id/textview14"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:text="AREA OF RESEARCH"
+            android:layout_marginTop="10dp"
+            android:textColor="#005a9b"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sample"
+            android:onClick="onclickbtn2"
+            android:text="Areas of Research" />
+        <TextView
+            android:id="@+id/textview21"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="Publications"
+            android:textColor="#005a9b"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sample"
+            android:onClick="onclickbtn3"
+            android:text="Publications" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="National Institute of Technology, Warangal - 506004, TS, INDIA."
+            android:textColor="#333"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="NITWGL Phone: +91-870-2459191 | FAX : +91-870-2459547"
+            android:textColor="#333"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

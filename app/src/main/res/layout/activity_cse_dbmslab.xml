@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS255 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:2\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Familiarization of Oracle RDBMS, SQL*Plus, SQL- query-structure, DDL-create, alter, drop, rename and Truncate DML-select, insert, update, delete and lock, set-operations, union, intersection and except, join, aggregate, group-by and having, nested sub-queries and views, DCL-grant and revoke, TCL-Commit, save point, rollback and set transaction. PL/SQL- Environment, block structure, variables, operators, data types, control structures, Cursors structures- Implicit and Explicit, Bulk statements- Bulk collect into and Forall, Exception handling- Compilation and Run-time, user-defined, Stored procedures- creation options, pass-by-value and pass-by-reference, functions-pass-by-value and pass-by-reference, packages-package specification, body, package creation and usage, and Triggers- Data definition language triggers, Data manipulation triggers, Compound triggers and trigger restrictions, Large objects-CLOB, NCLOB, BLOB and BFILE, Implementation of applications using GUI, group project."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. James, Paul and Weinberg, Andy Oppel, SQL: The Complete Reference,3rd Edition, McGraw Hill, 2011.\n2. Michael McLaughlin, Oracle Database 11g PL/SQL Programming, Oracle press.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickdbmslab"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

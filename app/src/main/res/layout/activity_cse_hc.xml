@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS463 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="GPU Computing - Introduction : Introduction to General Purpose Computing on Graphic Processing Units (GPGPU); GPU as parallel computers – CUDA enabled NVIDIA GPUs; AMD-ATI-OpenCL, GPGPU Architecture of a Modern GPU – Threaded Streaming Multi-processors; communication bandwidth;, Unified Graphics and Computing Processors; GPGPU- GPU computing – Scalable GPUs; Speed-up and Parallelism; CPU/GPU programing; SPMD programming model\n\nCUDA APIs and CUDA Threads - GPUs-Data Parallelism; GPU-CUDA Program Structure; GPU device memories and Data transfer; Kernel functions and threading; CUDA Runtime API; CUDA Thread Execution; CUDA Thread organization; Synchronization; Thread Scheduling;\n\nCUDA Memory and Performance Considerations : GPUs-Memory Access Efficiency; CUDA Device Memory types; CUDA memory model – constant memory; shared memory; local memory; global memory – Performance Issues; Unified Address space- NVIDIA GPUS; Global Memory Bandwidth; Thread Granularity; Memory Coalescing; Using Multiple GPUs; CUDA – matrix into matrix multiplication using shared memory without shared memory\n\nPerformance Issues - Matrix Computations : Performance Considerations; Date Prefetching; Shared memory resources; Programming on Dense Matrix computations (Vector-Vector Multiplication; Matrix-Vector Multiplication; Matrix-Matrix Multiplication\n\nOpenCL (Open Computing Language) : Heterogeneous Computing – Programming; Data Parallelism Model – OpenCL; OpenCL, Device Architecture; OpenCL Kernel Functions; OpenCL APIs – Matrix-Matrix, Computations using different partitioning techniques– OpenCL; OpenCL – Device Management and Kernel launch; Compilation Model and programming features of OpenCL – Device query; Object Query, and task parallelism model\n\nMixed Programming - Multi-Core Processors and GPUs : Heterogeneous computing – mixed programming (Message Passing-MPI and Shared Memory Programming (Pthreads, OpenMP); Heterogeneous computing - mixed programming – CPU (Pthreads, OpenMP) and GPU (CUDA, OpenCL); MPI-OpenCL and MPI-CUDA ; Programming for Dense Matrix Computations"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Benedict R Gaster, Lee Howes, David R Kaeli Perhaad Mistry Dana Schaa, Heterogeneous Computing with OpenCL, MGH, 2011\n2. Jason Sanders, Edward Kandrot, CUDA By Example – An Introduction to General-Purpose GPU Programming, Addison Wesley, 2011\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickhc"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

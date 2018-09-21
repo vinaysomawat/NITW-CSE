@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS304 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:4\nPre-requisites:None.\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction – Evolving role of software – Software – Software a crisis on the Horizon – Software Myths\n\nSoftware engineering layered technology – Software process – Software process models – The linear sequential model – The prototyping model – The RAD model – Evolutionary models – Component based development – The formal methods model – Fourth generation techniques\n\nProject management concepts - The management spectrum – People- The problem –The process – The project – Critical approach\n\nSoftware Process and project metrics – Measures, Metrics, and Indicators - Metrics in the Process and Project Domains - Software Measurement - Reconciling Different Metrics Approaches – Metrics for software quality – Managing validation –\n\nSoftware project planning – Observations on estimating- Project planning objectives-Resources – Software project estimation – Empirical estimation models-Automated estimation tools\n\nRisk management – Software risks – Risk identification – Risk projection – Risk refinement –safety risks and hazard – RMMM plans\n\nProject scheduling and tracking – Defining task set-Defining task network – scheduling- earned value analysis-Eror tracking-project plan\n\nSoftware quality assurance – Quality concepts – The quality movement-software quality assurance-Reviews-Relability\n\nSoftware configuration management – Identification of objects in the software configuration-configuration audit-SCM standards\n\nAnalysis concepts and principles – Requirement analysis-software prototyping-Specification Review\n\nAnalysis modeling – Data modeling-functional modeling-Behavioral modeling – Data dictionary\n\nDesign concepts and principles – Effective modulare design – design heuristics – Design model – Documentation\n\nSoftware design – Software architecture – Data designing – Architectural styles – Transform mapping –Ttransaction mapping – Refining architectural design\n\nUser interface design – Component level design\n\nSoftware testing techniques – White box and black box testing – Testing for specialized environment, architectures and applications\n\nSoftware testing strategies – Unit testing – Integrating testing – validation technique – System testing - debugging"/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Roger S. Pressman, Software Engineering - A Practitioner's Approach, 6th Edition, MGH, 2005.\n2. Ian Sommerville, Software Engineering, 9th Edition, Pearson Publishers, 2010.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickse"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinaysomawat.nitwsyllabus.MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Course ID:CS424 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCredit:3\nPre-requisites:None\n"
+                />
+            <TextView
+                android:id="@+id/idView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2002b6"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Detailed syllabus:\n"
+                />
+            <TextView
+                android:id="@+id/firstpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#7c051b"
+                android:textSize="18dp"
+                android:text="Introduction :\nInterpreters - Recursive and iterative interpreters\n\nCode generation:\nArithmetic statement translation, acyclic graph representation, pattern matching in the acyclic graph, graph rewriting, linearization following the dependencies, code generation for purely register machine, purely stack machine and with memory addressing. Code generation for a basic block.\n\nSimple optimizations :\nConstant folding, Scalar replacement of aggregates and Algebraic simplifications, Value numbering, Loop invariants identification, loop invariant code motion, partial redundancy elimination, procedure optimizations - call and return optimizations, Code hoisting, Induction variable identification and optimizations, Unnecessary bounds checking elimination\n\nRegister Allocation and Code scheduling :\nLocal methods and global methods, representation of the register allocation problem as graph colouring problem, heuristics, register tracking and spilling, Pipeline and Code scheduling effect on performance of the program, Software pipelining, speculative scheduling, boosting\n\nInter-procedural data flow analysis - static and dynamic, optimizations, Optimizing for memory hierarchies\n\nHigh performance systems – Scalar, vector, multiprocessor, SIMD, Message Passing Architectures. Sequential and parallel loops. Data dependence Use-Def chains. Dependence system, GCD test, Banerjee’s Inequality, Exact algorithm, Exact algorithm, Vectorization, Concurrentization, Array region analysis, Loop restructuring transformations."/>
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nReading:"/>
+            <TextView
+                android:id="@+id/readingpara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#047b31"
+                android:textSize="18dp"
+                android:text="1. Steven S. Muchnick, Advanced Compiler Design and Implementation, Morgan Kaufmann, Elsevier Science, 2003.\n2. Michael Wolfe, High Performance Compilers for Parallel Computing, Addison Wesley, 1995.\n"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Next Course"
+                android:onClick="nextclickacd"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
