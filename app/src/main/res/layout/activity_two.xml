@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="II Year, I Semester"
+            android:text="@string/two_one"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"/>
         <Button

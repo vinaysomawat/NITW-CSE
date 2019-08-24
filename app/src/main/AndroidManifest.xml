@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.vinaysomawat.nitwsyllabus">
 
     <application
@@ -8,7 +9,8 @@
         android:label="NITW CSE"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".welcome_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,84 +18,234 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:label="Computer Science and Engineering" android:name=".SecondActivity"></activity>
-        <activity android:label="Civil Engineering" android:name=".ThirdActivity"></activity>
-        <activity android:label="Areas of Research" android:name=".FourthActivity"></activity>
-        <activity android:label="Publications" android:name=".FifthActivity"></activity>
-        <activity android:label="Electrical Engineering" android:name=".SixthActivity"></activity>
-        <activity android:label="Chemical Engineering." android:name=".SeventhActivity"></activity>
-        <activity android:label="Metallurgical and Materials Engineering" android:name=".EighthActivity"></activity>
-        <activity android:label="Biotechnology" android:name=".NinthActivity"></activity>
-        <activity android:label="Statistical and Numerical Methods" android:name=".activity_cse_snme"></activity>
-        <activity android:label="Network Analysis" android:name=".activity_cse_na"></activity>
-        <activity android:label="Digital Logic Design" android:name=".activity_cse_dld"></activity>
-        <activity android:label="Advanced Compiler Design" android:name=".activity_cse_acd"></activity>
-        <activity android:label="Web Technologies" android:name=".activity_cse_wt"></activity>
-        <activity android:label="Wireless and Mobile Computing" android:name=".activity_cse_wmc"></activity>
-        <activity android:label="Unix Tools and Programming" android:name=".activity_cse_utp"></activity>
-        <activity android:label="Theory of Computation" android:name=".activity_cse_toc"></activity>
-        <activity android:label="Semantic Web" android:name=".activity_cse_sw"></activity>
-        <activity android:label="Secure Software Engineering" android:name=".activity_cse_sse"></activity>
-        <activity android:label="Systems Programming" android:name=".activity_cse_sp"></activity>
-        <activity android:label="Programming Lab" android:name=".activity_cse_splab"></activity>
-        <activity android:label="Service Oriented Architecture" android:name=".activity_cse_soa"></activity>
-        <activity android:label="Security and Privacy" android:name=".activity_cse_snp"></activity>
-        <activity android:label="Social Network Analysis" android:name=".activity_cse_sna"></activity>
-        <activity android:label="Software Metrics and Software Project Management" android:name=".activity_cse_smspm"></activity>
-        <activity android:label="Security Lab" android:name=".activity_cse_sl"></activity>
-        <activity android:label="Software Engineering" android:name=".activity_cse_se"></activity>
-        <activity android:label="Real Time Systems" android:name=".activity_cse_rts"></activity>
-        <activity android:label="Pattern Recognition" android:name=".activity_cse_pr"></activity>
-        <activity android:label="Parallel Processing" android:name=".activity_cse_pp"></activity>
-        <activity android:label="Programming Language Concepts" android:name=".activity_cse_plc"></activity>
-        <activity android:label="Operating Systems" android:name=".activity_cse_os"></activity>
-        <activity android:label="Operating Systems Lab" android:name=".activity_cse_oslab"></activity>
-        <activity android:label="Object Oriented Programming" android:name=".activity_cse_oops"></activity>
-        <activity android:label="Machine Learning and Soft Computing" android:name=".activity_cse_mls"></activity>
-        <activity android:label="Model-driven Frameworks" android:name=".activity_cse_mdf"></activity>
-        <activity android:label="Language Processors" android:name=".activity_cse_lp"></activity>
-        <activity android:label="Language Processors Lab" android:name=".activity_cse_lplab"></activity>
-        <activity android:label="Knowledge Engineering Lab" android:name=".activity_cse_kelab"></activity>
-        <activity android:label="Information Security and Auditing" android:name=".activity_cse_isna"></activity>
-        <activity android:label="Image Processing" android:name=".activity_cse_ip"></activity>
-        <activity android:label="Industrial Management" android:name=".activity_cse_im"></activity>
-        <activity android:label="IC Applications" android:name=".activity_cse_ica"></activity>
-        <activity android:label="IC Applications Lab" android:name=".activity_cse_icalab"></activity>
-        <activity android:label="Intelligent Agents" android:name=".activity_cse_iag"></activity>
-        <activity android:label="Heterogeneous Computing" android:name=".activity_cse_hc"></activity>
-        <activity android:label="Game Theory" android:name=".activity_cse_gt"></activity>
-        <activity android:label="File Structures" android:name=".activity_cse_fs"></activity>
-        <activity android:label="Engineering Economics and Accountancy" android:name=".activity_cse_eea"></activity>
-        <activity android:label="Data Warehousing and Data Mining" android:name=".activity_cse_dwdm"></activity>
-        <activity android:label="Data Structures and Algorithms" android:name=".activity_cse_dsa"></activity>
-        <activity android:label="Data Structures Lab" android:name=".activity_cse_dsalab"></activity>
-        <activity android:label="Design Patterns" android:name=".activity_cse_dp"></activity>
-        <activity android:label="Distributed Object Technologies" android:name=".activity_cse_dot"></activity>
-        <activity android:label="DNA Computing" android:name=".activity_cse_dnac"></activity>
-        <activity android:label="Discrete Mathematics" android:name=".activity_cse_dm"></activity>
-        <activity android:label="Distributed Computing" android:name=".activity_cse_dc"></activity>
-        <activity android:label="Database Management Systems" android:name=".activity_cse_dbms"></activity>
-        <activity android:label="Database Management Systems Lab" android:name=".activity_cse_dbmslab"></activity>
-        <activity android:label="Design and Analysis of Algorithms" android:name=".activity_cse_daa"></activity>
-        <activity android:label="Computational Neuroscience" android:name=".activity_cse_ctn"></activity>
-        <activity android:label="CASE Tools Lab" android:name=".activity_cse_ctlab"></activity>
-        <activity android:label="Cryptography and Network Security" android:name=".activity_cse_cns"></activity>
-        <activity android:label="Computer Networks" android:name=".activity_cse_cn"></activity>
-        <activity android:label="Computer Networks Lab" android:name=".activity_cse_cnlab"></activity>
-        <activity android:label="Cloud Computing" android:name=".activity_cse_cc"></activity>
-        <activity android:label="Computer Architecture" android:name=".activity_cse_ca"></activity>
-        <activity android:label="Bio-Informatics" android:name=".activity_cse_bif"></activity>
-        <activity android:label="Business Intelligence" android:name=".activity_cse_bi"></activity>
-        <activity android:label="Basic Electronics Lab" android:name=".activity_cse_belab"></activity>
-        <activity android:label="Big Data Analytics" android:name=".activity_cse_bda"></activity>
-        <activity android:label="Advanced Data Structures" android:name=".activity_cse_adsa"></activity>
-        <activity android:label="Advanced Databases" android:name=".activity_cse_ad"></activity>
-        <activity android:label="Advanced Data Mining" android:name=".activity_cse_adm"></activity>
-        <activity android:label="Advanced Computer Networks" android:name=".activity_cse_acn"></activity>
+        <activity
+            android:label="Computer Science and Engineering"
+            android:name=".SecondActivity"/>
+        <activity
+            android:label="Civil Engineering"
+            android:name=".ThirdActivity"/>
+        <activity
+            android:label="Areas of Research"
+            android:name=".FourthActivity"/>
+        <activity
+            android:label="Publications"
+            android:name=".FifthActivity"/>
+        <activity
+            android:label="Electrical Engineering"
+            android:name=".SixthActivity"/>
+        <activity
+            android:label="Chemical Engineering."
+            android:name=".SeventhActivity"/>
+        <activity
+            android:label="Metallurgical and Materials Engineering"
+            android:name=".EighthActivity"/>
+        <activity
+            android:label="Biotechnology"
+            android:name=".NinthActivity"/>
+        <activity
+            android:label="Statistical and Numerical Methods"
+            android:name=".activity_cse_snme"/>
+        <activity
+            android:label="Network Analysis"
+            android:name=".activity_cse_na"/>
+        <activity
+            android:label="Digital Logic Design"
+            android:name=".activity_cse_dld"/>
+        <activity
+            android:label="Advanced Compiler Design"
+            android:name=".activity_cse_acd"/>
+        <activity
+            android:label="Web Technologies"
+            android:name=".activity_cse_wt"/>
+        <activity
+            android:label="Wireless and Mobile Computing"
+            android:name=".activity_cse_wmc"/>
+        <activity
+            android:label="Unix Tools and Programming"
+            android:name=".activity_cse_utp"/>
+        <activity
+            android:label="Theory of Computation"
+            android:name=".activity_cse_toc"/>
+        <activity
+            android:label="Semantic Web"
+            android:name=".activity_cse_sw"/>
+        <activity
+            android:label="Secure Software Engineering"
+            android:name=".activity_cse_sse"/>
+        <activity
+            android:label="Systems Programming"
+            android:name=".activity_cse_sp"/>
+        <activity
+            android:label="Programming Lab"
+            android:name=".activity_cse_splab"/>
+        <activity
+            android:label="Service Oriented Architecture"
+            android:name=".activity_cse_soa"/>
+        <activity
+            android:label="Security and Privacy"
+            android:name=".activity_cse_snp"/>
+        <activity
+            android:label="Social Network Analysis"
+            android:name=".activity_cse_sna"/>
+        <activity
+            android:label="Software Metrics and Software Project Management"
+            android:name=".activity_cse_smspm"/>
+        <activity
+            android:label="Security Lab"
+            android:name=".activity_cse_sl"/>
+        <activity
+            android:label="Software Engineering"
+            android:name=".activity_cse_se"/>
+        <activity
+            android:label="Real Time Systems"
+            android:name=".activity_cse_rts"/>
+        <activity
+            android:label="Pattern Recognition"
+            android:name=".activity_cse_pr"/>
+        <activity
+            android:label="Parallel Processing"
+            android:name=".activity_cse_pp"/>
+        <activity
+            android:label="Programming Language Concepts"
+            android:name=".activity_cse_plc"/>
+        <activity
+            android:label="Operating Systems"
+            android:name=".activity_cse_os"/>
+        <activity
+            android:label="Operating Systems Lab"
+            android:name=".activity_cse_oslab"/>
+        <activity
+            android:label="Object Oriented Programming"
+            android:name=".activity_cse_oops"/>
+        <activity
+            android:label="Machine Learning and Soft Computing"
+            android:name=".activity_cse_mls"/>
+        <activity
+            android:label="Model-driven Frameworks"
+            android:name=".activity_cse_mdf"/>
+        <activity
+            android:label="Language Processors"
+            android:name=".activity_cse_lp"/>
+        <activity
+            android:label="Language Processors Lab"
+            android:name=".activity_cse_lplab"/>
+        <activity
+            android:label="Knowledge Engineering Lab"
+            android:name=".activity_cse_kelab"/>
+        <activity
+            android:label="Information Security and Auditing"
+            android:name=".activity_cse_isna"/>
+        <activity
+            android:label="Image Processing"
+            android:name=".activity_cse_ip"/>
+        <activity
+            android:label="Industrial Management"
+            android:name=".activity_cse_im"/>
+        <activity
+            android:label="IC Applications"
+            android:name=".activity_cse_ica"/>
+        <activity
+            android:label="IC Applications Lab"
+            android:name=".activity_cse_icalab"/>
+        <activity
+            android:label="Intelligent Agents"
+            android:name=".activity_cse_iag"/>
+        <activity
+            android:label="Heterogeneous Computing"
+            android:name=".activity_cse_hc"/>
+        <activity
+            android:label="Game Theory"
+            android:name=".activity_cse_gt"/>
+        <activity
+            android:label="File Structures"
+            android:name=".activity_cse_fs" />
+        <activity
+            android:label="Engineering Economics and Accountancy"
+            android:name=".activity_cse_eea"/>
+        <activity
+            android:label="Data Warehousing and Data Mining"
+            android:name=".activity_cse_dwdm"/>
+        <activity
+            android:label="Data Structures and Algorithms"
+            android:name=".activity_cse_dsa"/>
+        <activity
+            android:label="Data Structures Lab"
+            android:name=".activity_cse_dsalab"/>
+        <activity
+            android:label="Design Patterns"
+            android:name=".activity_cse_dp"/>
+        <activity
+            android:label="Distributed Object Technologies"
+            android:name=".activity_cse_dot"/>
+        <activity
+            android:label="DNA Computing"
+            android:name=".activity_cse_dnac"/>
+        <activity
+            android:label="Discrete Mathematics"
+            android:name=".activity_cse_dm"/>
+        <activity
+            android:label="Distributed Computing"
+            android:name=".activity_cse_dc"/>
+        <activity
+            android:label="Database Management Systems"
+            android:name=".activity_cse_dbms"/>
+        <activity
+            android:label="Database Management Systems Lab"
+            android:name=".activity_cse_dbmslab"/>
+        <activity
+            android:label="Design and Analysis of Algorithms"
+            android:name=".activity_cse_daa"/>
+        <activity
+            android:label="Computational Neuroscience"
+            android:name=".activity_cse_ctn"/>
+        <activity
+            android:label="CASE Tools Lab"
+            android:name=".activity_cse_ctlab"/>
+        <activity
+            android:label="Cryptography and Network Security"
+            android:name=".activity_cse_cns"/>
+        <activity
+            android:label="Computer Networks"
+            android:name=".activity_cse_cn"/>
+        <activity
+            android:label="Computer Networks Lab"
+            android:name=".activity_cse_cnlab"/>
+        <activity
+            android:label="Cloud Computing"
+            android:name=".activity_cse_cc"/>
+        <activity
+            android:label="Computer Architecture"
+            android:name=".activity_cse_ca"/>
+        <activity
+            android:label="Bio-Informatics"
+            android:name=".activity_cse_bif"/>
+        <activity
+            android:label="Business Intelligence"
+            android:name=".activity_cse_bi"/>
+        <activity
+            android:label="Basic Electronics Lab"
+            android:name=".activity_cse_belab"/>
+        <activity
+            android:label="Big Data Analytics"
+            android:name=".activity_cse_bda"/>
+        <activity
+            android:label="Advanced Data Structures"
+            android:name=".activity_cse_adsa"/>
+        <activity
+            android:label="Advanced Databases"
+            android:name=".activity_cse_ad"/>
+        <activity
+            android:label="Advanced Data Mining"
+            android:name=".activity_cse_adm"/>
+        <activity
+            android:label="Advanced Computer Networks"
+            android:name=".activity_cse_acn"/>
         <activity android:name=".MainActivity"
             android:label="@string/title_activity_welcome"
-            android:theme="@style/AppTheme"></activity>
-        <activity android:lable="About" android:name=".activity_about"></activity>
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:label="About"
+            android:name=".activity_about"/>
 
     </application>
 
