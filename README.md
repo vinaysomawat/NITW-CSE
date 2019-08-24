@@ -1,9 +1,37 @@
 # NITW-CSE
-An Android App(offline) developed on Android Studio using 65 java and 70 xml files which has database of all courses and introduction of branch like publication and faculty profile.
-![Launcher](https://github.com/vinaysomawat/Github_Images/blob/master/AndroidStudioProjects/Github_images/Screenshot_20180930-180217.png)
-![Main Activity](https://github.com/vinaysomawat/Github_Images/blob/master/AndroidStudioProjects/Github_images/Screenshot_20180930-180221.png)
-![Under Graduate Courses](https://github.com/vinaysomawat/Github_Images/blob/master/AndroidStudioProjects/Github_images/Screenshot_20180930-180225.png)
-![SNME Course](https://github.com/vinaysomawat/Github_Images/blob/master/AndroidStudioProjects/Github_images/Screenshot_20180930-180228.png)
-![Area of Research](https://github.com/vinaysomawat/Github_Images/blob/master/AndroidStudioProjects/Github_images/Screenshot_20180930-180242.png)
-![List of Publication](https://github.com/vinaysomawat/Github_Images/blob/master/AndroidStudioProjects/Github_images/Screenshot_20180930-180247.png)
-![Footer](https://github.com/vinaysomawat/Github_Images/blob/master/AndroidStudioProjects/Github_images/Screenshot_20180930-180252.png)
+NITW-CSE is an android App which have 
+* Introduction of Computer Science & Engineering Department 
+* Course Syllabus & Credits,
+* Recommended books, 
+* Area of research, 
+* Publication with faculty profile.
+
+![Activity](https://github.com/vinaysomawat/NITW-CSE/blob/master/img/image.jpg)
+
+## Getting Started
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Android SDK
+```
+### Installing
+```
+git clone https://github.com/vinaysomawat/NITW-CSE.git
+```
+```
+Open the project in Android Studio and start working on it. 
+```
+### Run
+```
+Run the project with emulator or your mobile device.
+```
+## Developer
+
+[Vinay Somawat](https://vinaysomawat.github.io/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
